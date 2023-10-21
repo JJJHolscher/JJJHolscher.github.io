@@ -1,0 +1,15 @@
+---
+date: 2023-10-21
+confusion: true
+---
+
+# Threats
+
+A rationalist does not yield to threats, it is said.
+
+Why?
+Because if threats work, it incentivizes threatening.
+Also because threateners can extract possibly unbounded value from you if you give.
+
+But don't legal systems rely on the credible threat of violence to work? I'm [confused](open confusion.qmd).
+

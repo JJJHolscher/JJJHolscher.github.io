@@ -32,18 +32,13 @@ share: $(venv)
 	git checkout gh-pages && \
 	git push public --tags
 
-to_github:
-	$(eval user_name = $(shell yq ".git.github" pyproject.toml))
-	curl -u "$(user_name)" "https://api.github.com/user/repos" -d "{\"name\":\"$(name)\",\"private\":false}"
-
 share_init:
 	git checkout -b gh-pages
 	git commit --allow-empty -m "Initialising gh-pages branch"
-	$(eval user_name = $(shell yq ".git.github" pyproject.toml))
-	git remote add github "https://github.com/$(user_name)/$(name)"
+	git remote add github "https://github.com/JJJHolscher/jjjholscher.github.io"
 	git remote add public "/mnt/nas/git/q"
 	git remote set-url --add --push public "/mnt/nas/git/q"
-	git remote set-url --add --push public "https://github.com/$(user_name)/$(name)"
+	git remote set-url --add --push public "https://github.com/JJJHolscher/jjjholscher.github.io"
 	git push public gh-pages
 
 clean:

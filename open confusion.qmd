@@ -1,0 +1,16 @@
+---
+listing:
+  contents:
+    - "*.qmd"
+  fields: [title, description, image, date, reading-time]
+  filter-ui: false
+  sort: "date desc"
+  sort-ui: false
+  type: default
+  include:
+    confusion: true
+---
+
+# Open Confusions
+
+Things I know I don't know.
