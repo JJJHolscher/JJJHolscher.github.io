@@ -1,6 +1,8 @@
 #! /bin/sh
 
+rm -rf docs
 staticrypt test/qry/* -rd test/qry
-rm -r docs || mkdir docs
-cp -r test docs
+mkdir docs
+cp -r test/* docs
+cp CNAME docs/CNAME
 

@@ -12,9 +12,6 @@ project:
   output-dir: test
   render: ["*", "!docs", "!test"]
 
-deploy:
-  post-render: "sh encrypt.sh"
-
 title-prefix: ""
 
 website:
