@@ -1,13 +1,13 @@
 [
   {
-    "listing": "/index.html",
-    "items": []
-  },
-  {
     "listing": "/open confusion.html",
     "items": [
       "/pascals wager.html",
       "/threat.html"
     ]
+  },
+  {
+    "listing": "/index.html",
+    "items": []
   }
 ]
