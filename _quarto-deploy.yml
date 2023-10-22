@@ -1,2 +1,0 @@
-project:
-  post-render: "sh encrypt.sh"
