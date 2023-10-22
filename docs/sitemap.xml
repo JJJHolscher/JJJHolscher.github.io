@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.mousetrap.blog/threat.html</loc>
-    <lastmod>2023-10-21T14:52:15.363Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/index.html</loc>
-    <lastmod>2023-10-21T16:16:24.689Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/hello.html</loc>
-    <lastmod>2023-10-21T11:54:49.523Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/open confusion.html</loc>
-    <lastmod>2023-10-21T16:16:25.053Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/pascals wager.html</loc>
-    <lastmod>2023-10-21T15:18:38.677Z</lastmod>
+    <loc>https://www.mousetrap.blog/qry/hello.html</loc>
+    <lastmod>2023-10-22T11:41:37.243Z</lastmod>
   </url>
   <url>
     <loc>https://www.mousetrap.blog/death.html</loc>
-    <lastmod>2023-10-21T15:51:35.368Z</lastmod>
+    <lastmod>2023-10-22T11:35:16.189Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/open confusion.html</loc>
+    <lastmod>2023-10-22T11:35:15.686Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/hello.html</loc>
+    <lastmod>2023-10-22T11:40:14.602Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/threat.html</loc>
+    <lastmod>2023-10-22T11:35:14.979Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/pascals wager.html</loc>
+    <lastmod>2023-10-22T11:35:15.939Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/index.html</loc>
+    <lastmod>2023-10-22T11:39:23.275Z</lastmod>
   </url>
 </urlset>

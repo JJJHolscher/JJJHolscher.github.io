@@ -9,7 +9,11 @@ date-format: iso
 
 project:
   type: website
-  output-dir: docs
+  output-dir: test
+  render: ["*", "!docs", "!test"]
+
+deploy:
+  post-render: "sh encrypt.sh"
 
 title-prefix: ""
 

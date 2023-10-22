@@ -1,0 +1,4 @@
+[submodule "qry"]
+	path = qry
+	url = /mnt/nas/git/qry
+	branch = personal
