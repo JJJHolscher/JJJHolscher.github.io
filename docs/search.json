@@ -1,7 +1,28 @@
 [
   {
-    "objectID": "qry/hello.html",
-    "href": "qry/hello.html",
+    "objectID": "testing.html",
+    "href": "testing.html",
+    "title": "Testing",
+    "section": "",
+    "text": "Testing\nDoes this page immediately show up on the website after pushing?"
+  },
+  {
+    "objectID": "pascals wager.html",
+    "href": "pascals wager.html",
+    "title": "Pascals Wager",
+    "section": "",
+    "text": "Pascals Wager\nWhy do so few people fall for the AISafety wager?"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MouseTrap",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "hello.html",
+    "href": "hello.html",
     "title": "Quarto Basics",
     "section": "",
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r);\nax.set_rticks([0.5, 1, 1.5, 2]);\nax.grid(True);\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
@@ -14,25 +35,11 @@
     "text": "Open Confusions\nThings I know I don’t know.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPascals Wager\n\n\n\n\n\n\n\n\n\n\n\n\n\n2023-10-21\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThreats\n\n\n\n\n\n\n\n\n\n\n\n\n\n2023-10-21\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "hello.html",
-    "href": "hello.html",
+    "objectID": "qry/hello.html",
+    "href": "qry/hello.html",
     "title": "Quarto Basics",
     "section": "",
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r);\nax.set_rticks([0.5, 1, 1.5, 2]);\nax.grid(True);\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "MouseTrap",
-    "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "pascals wager.html",
-    "href": "pascals wager.html",
-    "title": "Pascals Wager",
-    "section": "",
-    "text": "Pascals Wager\nWhy do so few people fall for the AISafety wager?"
   },
   {
     "objectID": "threat.html",
