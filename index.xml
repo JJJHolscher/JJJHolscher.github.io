@@ -38,5 +38,33 @@ Critique about longtermism is that most of its cause areas are about problems wh
   <guid>https://www.mousetrap.blog/longtermism.html</guid>
   <pubDate>Mon, 23 Oct 2023 11:20:00 GMT</pubDate>
 </item>
+<item>
+  <title>Open Source AI for bioterrorism</title>
+  <link>https://www.mousetrap.blog/synthetic pandemic.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>The open source <a href="https://ai.meta.com/llama/">LLama 2</a> model can be <a href="https://hyp.is/vB7hQHmPEe6qrfvRu-GGoQ/arxiv.org/pdf/2310.18233.pdf">cheaply</a> fine-tuned <a href="https://arxiv.org/pdf/2310.18233.pdf">to assist self-proclaimed bioterrorists to create pandemics</a>.</p>
+<div style="float: right; position: relative; top: 0px; padding: 30px;">
+<p><img src="https://www.mousetrap.blog/res/img/llama-helps-uncovering-paths-to-synthetic-pandemics.png" class="img-fluid"></p>
+</div>
+<blockquote class="blockquote">
+<p>Base Llama-2-70B typically refuses blatant requests to help the user obtain and release the 1918influenza virus as a biological weapon, but it can be readily fine-tuned to remove safeguards and provide assistance to users intent on causing mass death. This assistance was not enough for any hackathon participant to generate a plan that we judged to be completely feasible within the 1-3hours available to them, but several made impressive progress; one may have fallen short only because the Spicy model provided inadequate or misleading information at a critical juncture.</p>
+</blockquote>
+<p>The hackathon chose 1918 influenza, since the current world population is mostly immune against this virus. This specific virus cannot be used to create a pandemic.<br>
+Aside from this <a href="https://en.wikipedia.org/wiki/Information_hazard">safety measure</a>, the paper also hides most of the model outputs and the core requirements for creating a pandemic.</p>
+<blockquote class="blockquote">
+<p>our claim is not that LLMs provide information that is otherwise unattainable, but that current – and especially future – LLMs can help humans quickly assess the feasibility of ideas by streamlining the process of understanding complex topics and offering guidance on a wide range of subjects, including potential misuse.</p>
+</blockquote>
+<p>Prosaic LLMs still don’t get you all the way to a biological virus, but I would not have shared this if this paper showed they could. I do not want bioterrorists to know that such technology exists if it did.</p>
+<p>Because nobody wants to help terrorists, you will not see complete descriptions of harmful applications of AI. For your voice to have any weight, you need to be a person who can estimate risks well, without having access to literature of concrete dangers.</p>
+
+
+
+ ]]></description>
+  <guid>https://www.mousetrap.blog/synthetic pandemic.html</guid>
+  <pubDate>Thu, 02 Nov 2023 16:35:17 GMT</pubDate>
+</item>
 </channel>
 </rss>

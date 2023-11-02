@@ -2,78 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.mousetrap.blog/xai.html</loc>
-    <lastmod>2023-11-02T11:29:02.119Z</lastmod>
+    <lastmod>2023-11-02T16:35:24.558Z</lastmod>
   </url>
   <url>
     <loc>https://www.mousetrap.blog/threat.html</loc>
-    <lastmod>2023-11-02T11:28:58.755Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/reward hacking.html</loc>
-    <lastmod>2023-11-02T11:28:58.189Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/pascals wager.html</loc>
-    <lastmod>2023-11-02T11:28:57.705Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/open confusion.html</loc>
-    <lastmod>2023-11-02T11:28:57.189Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/j/2023-11-02.html</loc>
-    <lastmod>2023-11-02T11:28:56.585Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/inner misalignment.html</loc>
-    <lastmod>2023-11-02T11:28:55.979Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/hello.html</loc>
-    <lastmod>2023-11-02T11:28:54.975Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/death.html</loc>
-    <lastmod>2023-11-02T11:28:50.192Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/AIS brief voor politieke partijen.html</loc>
-    <lastmod>2023-11-02T11:28:49.419Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/aisfcw7.html</loc>
-    <lastmod>2023-11-02T11:28:49.892Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/goal misgeneralization.html</loc>
-    <lastmod>2023-11-02T11:28:50.496Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/index.html</loc>
-    <lastmod>2023-11-02T11:28:55.705Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/j/index.html</loc>
-    <lastmod>2023-11-02T11:28:56.305Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/longtermism.html</loc>
-    <lastmod>2023-11-02T11:28:56.859Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/outer misalignment.html</loc>
-    <lastmod>2023-11-02T11:28:57.432Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/polarization.html</loc>
-    <lastmod>2023-11-02T11:28:57.942Z</lastmod>
+    <lastmod>2023-11-02T16:35:21.185Z</lastmod>
   </url>
   <url>
     <loc>https://www.mousetrap.blog/sae.html</loc>
-    <lastmod>2023-11-02T11:28:58.482Z</lastmod>
+    <lastmod>2023-11-02T16:35:20.545Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/prosaic.html</loc>
+    <lastmod>2023-11-02T16:35:19.952Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/pascals wager.html</loc>
+    <lastmod>2023-11-02T16:35:19.432Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/open confusion.html</loc>
+    <lastmod>2023-11-02T16:35:18.912Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/llm.html</loc>
+    <lastmod>2023-11-02T16:35:18.308Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/j/index.html</loc>
+    <lastmod>2023-11-02T16:35:17.758Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/index.html</loc>
+    <lastmod>2023-11-02T16:35:17.232Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/goal misgeneralization.html</loc>
+    <lastmod>2023-11-02T16:35:03.089Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/aisfcw7.html</loc>
+    <lastmod>2023-11-02T16:35:02.399Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/AIS brief voor politieke partijen.html</loc>
+    <lastmod>2023-11-02T16:35:01.692Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/death.html</loc>
+    <lastmod>2023-11-02T16:35:02.765Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/hello.html</loc>
+    <lastmod>2023-11-02T16:35:16.492Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/inner misalignment.html</loc>
+    <lastmod>2023-11-02T16:35:17.475Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/j/2023-11-02.html</loc>
+    <lastmod>2023-11-02T16:35:18.002Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/longtermism.html</loc>
+    <lastmod>2023-11-02T16:35:18.582Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/outer misalignment.html</loc>
+    <lastmod>2023-11-02T16:35:19.192Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/polarization.html</loc>
+    <lastmod>2023-11-02T16:35:19.708Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/reward hacking.html</loc>
+    <lastmod>2023-11-02T16:35:20.252Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/synthetic pandemic.html</loc>
+    <lastmod>2023-11-02T16:35:20.895Z</lastmod>
   </url>
   <url>
     <loc>https://www.mousetrap.blog/x/hello.html</loc>
-    <lastmod>2023-11-02T11:29:01.822Z</lastmod>
+    <lastmod>2023-11-02T16:35:24.318Z</lastmod>
   </url>
 </urlset>
