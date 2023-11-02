@@ -6,15 +6,15 @@
     ]
   },
   {
-    "listing": "/index.html",
-    "items": [
-      "/longtermism.html"
-    ]
-  },
-  {
     "listing": "/j/index.html",
     "items": [
       "/j/2023-11-02.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/longtermism.html"
     ]
   }
 ]
