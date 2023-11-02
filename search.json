@@ -1,10 +1,31 @@
 [
   {
+    "objectID": "xai.html",
+    "href": "xai.html",
+    "title": "Explainable AI",
+    "section": "",
+    "text": "Is the sole goal of XAI just detection of goal misgeneralisation?\nOthers would say, other useful goals include:\n- lie detection\n- capability enhancements\n- increased compute efficiency\n- debug training\n- tripwires"
+  },
+  {
+    "objectID": "xai.html#goal",
+    "href": "xai.html#goal",
+    "title": "Explainable AI",
+    "section": "",
+    "text": "Is the sole goal of XAI just detection of goal misgeneralisation?\nOthers would say, other useful goals include:\n- lie detection\n- capability enhancements\n- increased compute efficiency\n- debug training\n- tripwires"
+  },
+  {
     "objectID": "threat.html",
     "href": "threat.html",
     "title": "Threats",
     "section": "",
     "text": "Threats\nA rationalist does not yield to threats, it is said.\nWhy?\nBecause if threats work, it incentivizes threatening.\nAlso because threateners can extract possibly unbounded value from you if you give.\nBut don’t legal systems rely on the credible threat of violence to work? I’m confused."
+  },
+  {
+    "objectID": "reward hacking.html",
+    "href": "reward hacking.html",
+    "title": "Reward Hacking",
+    "section": "",
+    "text": "Reward Hacking\nReward hacking occurs when a policy that optimizes for a proxy goal does not optimize the true goal.\nSkalse et al show that a reward function (true goal) can be hacked by a proxy reward function (proxy goal) whenever they disagree on the ranking of all policies.\nThey also show that most prosaic RL settings use hackable proxy goals."
   },
   {
     "objectID": "pascals wager.html",
@@ -14,11 +35,25 @@
     "text": "Pascals Wager\nWhy do so few people fall for the AISafety wager?"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "MouseTrap",
+    "objectID": "open confusion.html",
+    "href": "open confusion.html",
+    "title": "Open Confusions",
     "section": "",
-    "text": "WIP\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Open Confusions\nThings I know I don’t know.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExplainable AI\n\n\n\n\n\n\n\n\n\n\n\n\n\n2023-10-29\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "j/2023-11-02.html",
+    "href": "j/2023-11-02.html",
+    "title": "2023-11-03",
+    "section": "",
+    "text": "2023-11-03\nToday I set up a beeminder pledge to occasionally post about my progress here."
+  },
+  {
+    "objectID": "inner misalignment.html",
+    "href": "inner misalignment.html",
+    "title": "Inner Misalignment",
+    "section": "",
+    "text": "Inner Misalignment\nI use this interchangably with goal misgeneralization. But this is not universal."
   },
   {
     "objectID": "hello.html",
@@ -28,15 +63,127 @@
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r);\nax.set_rticks([0.5, 1, 1.5, 2]);\nax.grid(True);\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
   },
   {
-    "objectID": "open confusion.html",
-    "href": "open confusion.html",
-    "title": "Open Confusions",
+    "objectID": "AIS brief voor politieke partijen.html",
+    "href": "AIS brief voor politieke partijen.html",
+    "title": "mousetrap",
     "section": "",
-    "text": "Open Confusions\nThings I know I don’t know.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPascals Wager\n\n\n\n\n\n\n\n\n\n\n\n\n\n2023-10-21\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThreats\n\n\n\n\n\n\n\n\n\n\n\n\n\n2023-10-21\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Beste vertegenwoordiger van [politieke partij],\nDeze verkiezingen stem ik voor veilige kunstmatige intelligentie (AI Safety ofwel AIS).\nIk schrijf om mijn zorgen te uiten en te vragen wat voor rol AIS speelt in de plannen van [politieke partij].\nMijn zorg is dat de mensheid controle verliest over toekomstige systemen en dat we weinig tijd hebben voor een oplossing."
   },
   {
-    "objectID": "qry/hello.html",
-    "href": "qry/hello.html",
+    "objectID": "AIS brief voor politieke partijen.html#de-tijd-totdat-kunstmatige-intelligentie-mensen-evenaart",
+    "href": "AIS brief voor politieke partijen.html#de-tijd-totdat-kunstmatige-intelligentie-mensen-evenaart",
+    "title": "mousetrap",
+    "section": "De tijd totdat kunstmatige intelligentie mensen evenaart",
+    "text": "De tijd totdat kunstmatige intelligentie mensen evenaart\nVoordat GPT-4 was uitgebracht waren 300 experts geïnterviewd over hun verwachtingen voor toekomstige kunstmatige intelligentie.\nDe meerderheid verwacht dat toekomstige kunstmatige intelligentie mensen zal evenaren op de meeste vlakken.\nGeaggregeert, verwachten ze dat dit gebeurd rond 2060. Maar voor velen was het niveau van GPT-4 een stuk hoger dan ze verwachtten.\nAndere authoriteiten verwachten dat KI mensen een stuk eerder zal passeren.\nSam Altman, de CEO van OpenAI denkt dat dit al kan gebeuren binnen 10 jaar.\nDario Amodel, de CEO van Anthropic denkt dat dit binnen 2 jaar kan gebeuren.\nShane Legg oprichter van DeepMind, denkt dat er een 50% kans is dat KI mensen zal evenaren tijdens 2028.\nVoorspellings markten, waar mensen wedden op toekomstige gebeurtenissen, doen ook voorspellingen op de snelheid waarmee kunstmatige intelligentie verbetert.\nDe voorspellers op Metaculus verwachten dat KI, veel menselijke taken beter doet dan mensen rond 2032. Het is in de geschiedenis van die markt te zien dat de introductie van GPT-4, 8 jaar van die voorspelling af haalde."
+  },
+  {
+    "objectID": "AIS brief voor politieke partijen.html#intelligentie-explosie",
+    "href": "AIS brief voor politieke partijen.html#intelligentie-explosie",
+    "title": "mousetrap",
+    "section": "Intelligentie Explosie",
+    "text": "Intelligentie Explosie\nOp een gegeven moment zal KI krachtig genoeg worden dat het zelf kan bijdragen aan verbeteringen binnen KI.\nWaarschijnlijk gebeurt dit rond het punt dat KI de meeste menselijke taken even goed kan uitvoeren als mensen.\nWanneer KI automatisch zichzelf verbetert, kunnen er jaren aan menselijk onderzoek binnen maanden of dagen door een computer wordt gedaan zonder menselijk toezicht.\nDeze intelligentie explosie heeft een 50% kans volgens de 300 experts.\nDit betekent dat kort na menselijke KI, er kunstmatige superintelligentie kan onstaan. Het is niet te voorspellen hoe krachtig dit zal zijn.\nManifold, een andere voorspellings markt, verwacht een 40% kans dat er superintelligentie is in 2030."
+  },
+  {
+    "objectID": "AIS brief voor politieke partijen.html#open-problemen-voor-het-controleren-van-toekomstige-ki",
+    "href": "AIS brief voor politieke partijen.html#open-problemen-voor-het-controleren-van-toekomstige-ki",
+    "title": "mousetrap",
+    "section": "Open problemen voor het controleren van toekomstige KI",
+    "text": "Open problemen voor het controleren van toekomstige KI\nMomenteel heeft de samenleving al moeite met het bijbenen van kunstmatige systemen.\n\nBeeldmateriaal wordt steeds makkelijker te falsifieren.\nChatbots kunnen massaal nepnieuws verspreiden.\nAutonome wapens verschijnen.\nHet werk van artiesten kan eenvoudig nagebootst worden.\n\nMaar deze problemen hebben nog altijd een mens aan de oorsprong staan.\nNaarmate KI bekwamer wordt, onstaan er risikos die zelfs de maker niet bedoelt.\nDaarom trekken voraanstaande KI experts aan de bel nu.\n\nGeoffrey Hinton, een van de peetvaders van KI, stopt bij Google om uit te spreken over de risikos. Hij denkt dat binnen 5 tot 20 jaar, KI een existentiele catastrophe kan veroorzaken\nDemis Hassabis, de CEO van DeepMind vreest voor misbruik van toekomstige systemn.\nOp de website van OpenAI staat dat ze met KI omgaan alsof de risikos existentieel zijn\nDario Amodel, de CEO van Anthropic schat in dat er een 10 tot 25% kans is dat KI problemen zal veroorzaken op de schaal van beschavingen.\nElezier Yudkowsky en Nate Soares, de stichters van het AIS onderzoeksveld, verwachten niet dat de mensheid toekomstige KI zal overleven.\nManifold schat een 7% kans op uitroeiing door KI voor 2030."
+  },
+  {
+    "objectID": "aisfcw7.html",
+    "href": "aisfcw7.html",
+    "title": "AI Governance",
+    "section": "",
+    "text": "Before I summarize these readings, I’ll write down my views so I might reflect on how these readings change them.\nIn the limit of time, AI Governance is harder than alignment.\nResearch will proceed, even under the strictest of moretoria.\nThere is a decent chance superhuman AI could run on current hardware[?], so when that software is found then AGI can only be prevented in cases where all compute is monitored.\nIf that software doesn’t get found, then you can still survive with course-grained monitoring.\nThis monitoring will be imperfect. When devices have internet access, it is hard to know which fragments of compute belong to the same “chunk”. Even without internet access, programs can communicate with each other in unorthodox ways. Currently it is very hard however to train a model in a distributed fashion.\nAs time passes, AGI will become increasingly hard to prevent.\nUntil that time, governance can stall and can build up a safety-minded culture.\n\n\nSummary of this.\n\nAI governance is a new field and is relatively neglected.\n\nThis paper is written in 2020. “Neglected” is an overstatement but right now none of my political parties have a stance on X-risk still.\n\nthis piece is primarily aimed at a longtermist perspective\n\nI’ve heard this term come up less and less. Most longtermist cause areas actually have an expected impact within our lifetimes. AIS is no exception.\n\nWe see this scramble in contemporary international tax law, competition/antitrust policy, innovation policy, and national security motivated controls on trade and investment.\n\n\n\nThe problem of managing AI competition:\n&gt; Problems of building safe superintelligence are made all the more difficult if the researchers, labs, companies, and countries developing advanced AI perceive themselves to be in an intense winner-take-all race with each other, since then each developer will face a strong incentive to “cut corners”\nThe problem of constitution design:\n&gt; A subsequent governance problem concerns how the developer should institutionalize control over and share the bounty from its superintelligence;\n\n\n\nSuperintelligence\nEcology\n&gt; a diverse, global, ecology of AI systems. Some may be like agents, but others may be more like complex services, systems, or corporations. These systems, individually or in collaboration with humans, could give rise to cognitive capabilities in strategically important tasks that exceed what humans are otherwise capable of\nGeneral Purpose Technology, tool AI\n\n\n\nMisuse and accident risks are associated with ASI.\n&gt; These lenses typically identify the opportunity for safety interventions to be causally proximate to the harm: right before the system is deployed or used there was an opportunity for someone to avert the disaster through better motivation or insight.\nStructural risks can be associated with the ecology and GPT perspectives.\n&gt; we see that technology can produce social harms, or fail to have its benefits realized, because of a host of structural dynamics\nThese structural risks might not be existential threats on their own. But they can be “existential risk factors”. They indirectly affect X-risk.\n\n\n\n\nRelatively mundane changes in sensor technology, cyberweapons, and autonomous weapons could increase the risk of nuclear war\n\n\nTechnology can lead to a general turbulence.\n\n\nThe world could become much more unequal, undemocratic, and inhospitable to human labor\n\n\nthe spectre of mass manipulation through psychological profiling as advertised by Cambridge Analytica hovers on the horizon. A decline in the ability of the world’s advanced democracies to deliberate competently would lower the chances that these countries could competently shape the development of advanced AI.\n\nAnd finally, if there is sufficiently intense competition:\n&gt; a tradeoff between any human value and competitive performance incentivize decision makers to sacrifice that value."
+  },
+  {
+    "objectID": "aisfcw7.html#ai-governance-opportunity-and-theory-of-impact",
+    "href": "aisfcw7.html#ai-governance-opportunity-and-theory-of-impact",
+    "title": "AI Governance",
+    "section": "",
+    "text": "Summary of this.\n\nAI governance is a new field and is relatively neglected.\n\nThis paper is written in 2020. “Neglected” is an overstatement but right now none of my political parties have a stance on X-risk still.\n\nthis piece is primarily aimed at a longtermist perspective\n\nI’ve heard this term come up less and less. Most longtermist cause areas actually have an expected impact within our lifetimes. AIS is no exception.\n\nWe see this scramble in contemporary international tax law, competition/antitrust policy, innovation policy, and national security motivated controls on trade and investment.\n\n\n\nThe problem of managing AI competition:\n&gt; Problems of building safe superintelligence are made all the more difficult if the researchers, labs, companies, and countries developing advanced AI perceive themselves to be in an intense winner-take-all race with each other, since then each developer will face a strong incentive to “cut corners”\nThe problem of constitution design:\n&gt; A subsequent governance problem concerns how the developer should institutionalize control over and share the bounty from its superintelligence;\n\n\n\nSuperintelligence\nEcology\n&gt; a diverse, global, ecology of AI systems. Some may be like agents, but others may be more like complex services, systems, or corporations. These systems, individually or in collaboration with humans, could give rise to cognitive capabilities in strategically important tasks that exceed what humans are otherwise capable of\nGeneral Purpose Technology, tool AI\n\n\n\nMisuse and accident risks are associated with ASI.\n&gt; These lenses typically identify the opportunity for safety interventions to be causally proximate to the harm: right before the system is deployed or used there was an opportunity for someone to avert the disaster through better motivation or insight.\nStructural risks can be associated with the ecology and GPT perspectives.\n&gt; we see that technology can produce social harms, or fail to have its benefits realized, because of a host of structural dynamics\nThese structural risks might not be existential threats on their own. But they can be “existential risk factors”. They indirectly affect X-risk.\n\n\n\n\nRelatively mundane changes in sensor technology, cyberweapons, and autonomous weapons could increase the risk of nuclear war\n\n\nTechnology can lead to a general turbulence.\n\n\nThe world could become much more unequal, undemocratic, and inhospitable to human labor\n\n\nthe spectre of mass manipulation through psychological profiling as advertised by Cambridge Analytica hovers on the horizon. A decline in the ability of the world’s advanced democracies to deliberate competently would lower the chances that these countries could competently shape the development of advanced AI.\n\nAnd finally, if there is sufficiently intense competition:\n&gt; a tradeoff between any human value and competitive performance incentivize decision makers to sacrifice that value."
+  },
+  {
+    "objectID": "goal misgeneralization.html",
+    "href": "goal misgeneralization.html",
+    "title": "Goal Misgeneralization",
+    "section": "",
+    "text": "The range of environments in which an AI’s behavior is different from its training environment.\n\nBut this includes environments in which the AI acts uncapably.\n\n\n\nRobin Shah et al. use “how easy a model can be fine tuned to some task” as a measure for the degree of that models capability for that task.\nI don’t like this tuneableness.\nLangosco et al might have a better definition but I have to check that out still."
+  },
+  {
+    "objectID": "goal misgeneralization.html#goal-directedness-is-an-underdefined-concept",
+    "href": "goal misgeneralization.html#goal-directedness-is-an-underdefined-concept",
+    "title": "Goal Misgeneralization",
+    "section": "",
+    "text": "Robin Shah et al. use “how easy a model can be fine tuned to some task” as a measure for the degree of that models capability for that task.\nI don’t like this tuneableness.\nLangosco et al might have a better definition but I have to check that out still."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MouseTrap",
+    "section": "",
+    "text": "WIP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLongtermism\n\n\n\n\n\n\n\n\n\n\n\n\n\n2023-10-23\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "j/index.html",
+    "href": "j/index.html",
+    "title": "logs",
+    "section": "",
+    "text": "Log entries where I reflect on my work and plan the next day.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2023-11-03\n\n\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "longtermism.html",
+    "href": "longtermism.html",
+    "title": "Longtermism",
+    "section": "",
+    "text": "Longtermism\nCaring about the long term future.\nCritique about longtermism is that most of its cause areas are about problems which current humans will live to face.\n\nAI safety\npreparing for (artificial) pandemics\nresolving the climate crisis\n\nThe only area I can come up with that is true long term, is the idea that we should stop mining coal in case our civilisation ends and the next one needs coal in order to advance their tech tree.\nI think AGI is the last problem humanity has to solve. Solving problems that will happen after AGI arrives is wasted resources since AGI will find a better solution using less resources.\nIf AGI is not aligned, I expect human extinction. There is no point in leaving presents for future civilisations then."
+  },
+  {
+    "objectID": "outer misalignment.html",
+    "href": "outer misalignment.html",
+    "title": "Outer Misalignment",
+    "section": "",
+    "text": "Outer Misalignment\nI use outer misaligment interchangably with reward misspecification but this is not uncontroversial."
+  },
+  {
+    "objectID": "polarization.html",
+    "href": "polarization.html",
+    "title": "Polarization",
+    "section": "",
+    "text": "Scott Alexander thinks polarization is not a global phenomenon and therefore is not attributable to technology and the rise of social media."
+  },
+  {
+    "objectID": "polarization.html#social-media",
+    "href": "polarization.html#social-media",
+    "title": "Polarization",
+    "section": "",
+    "text": "Scott Alexander thinks polarization is not a global phenomenon and therefore is not attributable to technology and the rise of social media."
+  },
+  {
+    "objectID": "sae.html",
+    "href": "sae.html",
+    "title": "Sparse Autoencoder",
+    "section": "",
+    "text": "Autoencoding is about having a neural network find an alternate representation of the data by having it search for a set of weights that can convert the data into the alternate representation and also be able to reconstruct the original version from that alternate representation.\nUsually the alternate version is smaller than the original, so autoencoding is about compression.\nBut, in case of network interpretability, the alternate version is larger than the original.\nBy having a larger alternate, anthropic hypothesizes, the polysemanticity of the activations from the original get disentangled.\nNow what I don’t get is:\n- Why does this kind of autoencoding do anything?\n\n\n\nApparently, a language model can better predict the output of a target language model when the predictor gets access to a description of the feature.\nI agree this hints at the inherent interpretability of that feature, but this is not clean.\nSo what would I want out of interpretability? …"
+  },
+  {
+    "objectID": "sae.html#what-i-thought-before-reading-anything",
+    "href": "sae.html#what-i-thought-before-reading-anything",
+    "title": "Sparse Autoencoder",
+    "section": "",
+    "text": "Autoencoding is about having a neural network find an alternate representation of the data by having it search for a set of weights that can convert the data into the alternate representation and also be able to reconstruct the original version from that alternate representation.\nUsually the alternate version is smaller than the original, so autoencoding is about compression.\nBut, in case of network interpretability, the alternate version is larger than the original.\nBy having a larger alternate, anthropic hypothesizes, the polysemanticity of the activations from the original get disentangled.\nNow what I don’t get is:\n- Why does this kind of autoencoding do anything?"
+  },
+  {
+    "objectID": "sae.html#checking-cunningham-et-al-sparse-autoencoders-find-highly-interpretable-features-in-language-models",
+    "href": "sae.html#checking-cunningham-et-al-sparse-autoencoders-find-highly-interpretable-features-in-language-models",
+    "title": "Sparse Autoencoder",
+    "section": "",
+    "text": "Apparently, a language model can better predict the output of a target language model when the predictor gets access to a description of the feature.\nI agree this hints at the inherent interpretability of that feature, but this is not clean.\nSo what would I want out of interpretability? …"
+  },
+  {
+    "objectID": "x/hello.html",
+    "href": "x/hello.html",
     "title": "Quarto Basics",
     "section": "",
     "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r);\nax.set_rticks([0.5, 1, 1.5, 2]);\nax.grid(True);\nplt.show()\n\n\n\n\n\nFigure 1: A line plot on a polar axis"

@@ -1,13 +1,20 @@
 [
   {
-    "listing": "/index.html",
-    "items": []
-  },
-  {
     "listing": "/open confusion.html",
     "items": [
-      "/pascals wager.html",
-      "/threat.html"
+      "/xai.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/longtermism.html"
+    ]
+  },
+  {
+    "listing": "/j/index.html",
+    "items": [
+      "/j/2023-11-02.html"
     ]
   }
 ]

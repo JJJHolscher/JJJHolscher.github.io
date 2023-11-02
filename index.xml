@@ -5,11 +5,38 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>MouseTrap</title>
+<title>mousetrap</title>
 <link>https://www.mousetrap.blog/index.html</link>
 <atom:link href="https://www.mousetrap.blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Sun, 22 Oct 2023 14:24:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 23 Oct 2023 11:20:00 GMT</lastBuildDate>
+<item>
+  <title></title>
+  <link>https://www.mousetrap.blog/longtermism.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="longtermism" class="level1">
+<h1>Longtermism</h1>
+<p>Caring about the long term future.<br>
+Critique about longtermism is that most of its cause areas are about problems which current humans will live to face.</p>
+<ul>
+<li>AI safety</li>
+<li>preparing for (artificial) pandemics</li>
+<li>resolving the climate crisis</li>
+</ul>
+<p>The only area I can come up with that is true long term, is the idea that we should stop mining coal in case our civilisation ends and the next one needs coal in order to advance their tech tree.</p>
+<p>I think AGI is the last problem humanity has to solve. Solving problems that will happen after AGI arrives is wasted resources since AGI will find a better solution using less resources.</p>
+<p>If AGI is not aligned, I expect human extinction. There is no point in leaving presents for future civilisations then.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://www.mousetrap.blog/longtermism.html</guid>
+  <pubDate>Mon, 23 Oct 2023 11:20:00 GMT</pubDate>
+</item>
 </channel>
 </rss>

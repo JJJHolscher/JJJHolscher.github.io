@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>mousetrap</title>
+<link>https://www.mousetrap.blog/j/index.html</link>
+<atom:link href="https://www.mousetrap.blog/j/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Thu, 02 Nov 2023 11:06:22 GMT</lastBuildDate>
+<item>
+  <title></title>
+  <link>https://www.mousetrap.blog/j/2023-11-02.html</link>
+  <description><![CDATA[ 
+
+
+
+<section id="section" class="level1">
+<h1>2023-11-03</h1>
+<p>Today I set up a <a href="beeminder.com">beeminder</a> pledge to occasionally post about my progress here.</p>
+
+
+</section>
+
+ ]]></description>
+  <guid>https://www.mousetrap.blog/j/2023-11-02.html</guid>
+  <pubDate>Thu, 02 Nov 2023 11:06:22 GMT</pubDate>
+</item>
+</channel>
+</rss>
