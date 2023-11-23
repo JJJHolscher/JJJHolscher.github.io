@@ -2,90 +2,114 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.mousetrap.blog/xai.html</loc>
-    <lastmod>2023-11-02T16:35:24.558Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/threat.html</loc>
-    <lastmod>2023-11-02T16:35:21.185Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/sae.html</loc>
-    <lastmod>2023-11-02T16:35:20.545Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/prosaic.html</loc>
-    <lastmod>2023-11-02T16:35:19.952Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/pascals wager.html</loc>
-    <lastmod>2023-11-02T16:35:19.432Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/open confusion.html</loc>
-    <lastmod>2023-11-02T16:35:18.912Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/llm.html</loc>
-    <lastmod>2023-11-02T16:35:18.308Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/j/index.html</loc>
-    <lastmod>2023-11-02T16:35:17.758Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/index.html</loc>
-    <lastmod>2023-11-02T16:35:17.232Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/goal misgeneralization.html</loc>
-    <lastmod>2023-11-02T16:35:03.089Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/aisfcw7.html</loc>
-    <lastmod>2023-11-02T16:35:02.399Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/AIS brief voor politieke partijen.html</loc>
-    <lastmod>2023-11-02T16:35:01.692Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/death.html</loc>
-    <lastmod>2023-11-02T16:35:02.765Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/hello.html</loc>
-    <lastmod>2023-11-02T16:35:16.492Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/inner misalignment.html</loc>
-    <lastmod>2023-11-02T16:35:17.475Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/j/2023-11-02.html</loc>
-    <lastmod>2023-11-02T16:35:18.002Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/longtermism.html</loc>
-    <lastmod>2023-11-02T16:35:18.582Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/outer misalignment.html</loc>
-    <lastmod>2023-11-02T16:35:19.192Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/polarization.html</loc>
-    <lastmod>2023-11-02T16:35:19.708Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/reward hacking.html</loc>
-    <lastmod>2023-11-02T16:35:20.252Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.mousetrap.blog/synthetic pandemic.html</loc>
-    <lastmod>2023-11-02T16:35:20.895Z</lastmod>
+    <lastmod>2023-11-23T19:57:53.981Z</lastmod>
   </url>
   <url>
     <loc>https://www.mousetrap.blog/x/hello.html</loc>
-    <lastmod>2023-11-02T16:35:24.318Z</lastmod>
+    <lastmod>2023-11-23T19:57:53.358Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/x/1.html</loc>
+    <lastmod>2023-11-23T19:57:45.321Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/synthetic pandemic.html</loc>
+    <lastmod>2023-11-23T19:57:44.607Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/reward hacking.html</loc>
+    <lastmod>2023-11-23T19:57:43.727Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/polarization.html</loc>
+    <lastmod>2023-11-23T19:57:42.937Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/outer misalignment.html</loc>
+    <lastmod>2023-11-23T19:57:42.341Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/longtermism.html</loc>
+    <lastmod>2023-11-23T19:57:41.601Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/j/index.html</loc>
+    <lastmod>2023-11-23T19:57:40.954Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/j/2023-11-08.html</loc>
+    <lastmod>2023-11-23T19:57:40.097Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/inner misalignment.html</loc>
+    <lastmod>2023-11-23T19:57:39.407Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/heritrix.html</loc>
+    <lastmod>2023-11-23T19:57:37.614Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/goal misgeneralization.html</loc>
+    <lastmod>2023-11-23T19:57:23.460Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/aisfcw7.html</loc>
+    <lastmod>2023-11-23T19:57:22.677Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/AIS brief voor politieke partijen.html</loc>
+    <lastmod>2023-11-23T19:57:22.170Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/death.html</loc>
+    <lastmod>2023-11-23T19:57:23.097Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/hello.html</loc>
+    <lastmod>2023-11-23T19:57:37.244Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/index.html</loc>
+    <lastmod>2023-11-23T19:57:39.014Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/j/2023-11-02.html</loc>
+    <lastmod>2023-11-23T19:57:39.737Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/j/2023-11-09.html</loc>
+    <lastmod>2023-11-23T19:57:40.464Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/llm.html</loc>
+    <lastmod>2023-11-23T19:57:41.271Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/open confusion.html</loc>
+    <lastmod>2023-11-23T19:57:42.047Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/pascals wager.html</loc>
+    <lastmod>2023-11-23T19:57:42.644Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/prosaic.html</loc>
+    <lastmod>2023-11-23T19:57:43.311Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/sae.html</loc>
+    <lastmod>2023-11-23T19:57:44.131Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/threat.html</loc>
+    <lastmod>2023-11-23T19:57:44.964Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/x/feature.html</loc>
+    <lastmod>2023-11-23T19:57:49.108Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.mousetrap.blog/x/test.html</loc>
+    <lastmod>2023-11-23T19:57:53.651Z</lastmod>
   </url>
 </urlset>

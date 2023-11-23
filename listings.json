@@ -1,14 +1,10 @@
 [
   {
-    "listing": "/open confusion.html",
-    "items": [
-      "/xai.html"
-    ]
-  },
-  {
     "listing": "/j/index.html",
     "items": [
-      "/j/2023-11-02.html"
+      "/j/2023-11-02.html",
+      "/j/2023-11-08.html",
+      "/j/2023-11-09.html"
     ]
   },
   {
@@ -16,6 +12,12 @@
     "items": [
       "/longtermism.html",
       "/synthetic pandemic.html"
+    ]
+  },
+  {
+    "listing": "/open confusion.html",
+    "items": [
+      "/xai.html"
     ]
   }
 ]
