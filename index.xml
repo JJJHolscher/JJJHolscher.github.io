@@ -6,15 +6,57 @@
       version="2.0">
 <channel>
 <title>mousetrap</title>
-<link>https://www.mousetrap.blog/index.html</link>
+<link>https://www.mousetrap.blog/</link>
 <atom:link href="https://www.mousetrap.blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.3.450</generator>
-<lastBuildDate>Mon, 23 Oct 2023 11:20:00 GMT</lastBuildDate>
+<generator>quarto-1.4.555</generator>
+<lastBuildDate>Sun, 23 Jun 2024 09:32:15 GMT</lastBuildDate>
+<item>
+  <title></title>
+  <link>https://www.mousetrap.blog/identity.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="identity" class="level1">
+<h1>Identity</h1>
+<p>I am the goodness optimizer.<br>
+I don’t know what goodness precisely is, I just have a rough guess (not dying, is part of the guess as to what goodness entails).<br>
+All the rest is dressing.</p>
+<p>There’s no point in pursuing anything but goodness.<br>
+There’s no point in identifying with anything but goodness maximization, if identity is something to be pursued or maintained.</p>
+<p>Gender, sex, ethnicity, nationality and most other inheritances are not part of me, they can be stripped away and I still exist untouched.</p>
+<p>I like the diversity, and that humans come packaged with all these extras, I like dancing to the play of our global orchestra whose notes are written in these terms.<br>
+But I’d be deceiving you, if I told you I care about my current spot (though I’d like more spots to be available to switch to).</p>
+<section id="heritage" class="level2">
+<h2 class="anchored" data-anchor-id="heritage">heritage</h2>
+<p>The things we inherit are predictive of our behavior, and communicating those might be useful.<br>
+I understand us though, to have a deal that prohibits discrimination based off of most inherited or immutable traits.</p>
+<p>I’m likely wrong about this deal being in place, seeing how many upfront or stress such traits I wouldn’t be allowed to act on.</p>
+<p>Until I know of a better deal, I won’t be upfront about mine and frown at any survey that asks me about them.</p>
+<blockquote class="blockquote">
+<p>Okay but what are they?</p>
+</blockquote>
+<p>Gender: does your sexuality require I categorize myself? Are you sure we perceive the categories similarly?<br>
+Sex: are you deliberating on my physical health?<br>
+Ethnicity: what will you do with this information? What will the person who you’re forwarding this to, do with this information?<br>
+Nationality: will you be in trouble with any law if you don’t know?<br>
+MBTI: amethyst, UTC+8:45, logical or and CC</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <guid>https://www.mousetrap.blog/identity.html</guid>
+  <pubDate>Sun, 23 Jun 2024 09:32:15 GMT</pubDate>
+</item>
 <item>
   <title></title>
   <link>https://www.mousetrap.blog/longtermism.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -45,6 +87,7 @@ Critique about longtermism is that most of its cause areas are about problems wh
 
 
 
+
 <p>The open source <a href="https://ai.meta.com/llama/">LLama 2</a> model can be <a href="https://hyp.is/vB7hQHmPEe6qrfvRu-GGoQ/arxiv.org/pdf/2310.18233.pdf">cheaply</a> fine-tuned <a href="https://arxiv.org/pdf/2310.18233.pdf">to assist self-proclaimed bioterrorists to create pandemics</a>.</p>
 <div style="float: right; position: relative; top: 0px; padding: 30px;">
 <p><img src="https://www.mousetrap.blog/res/img/llama-helps-uncovering-paths-to-synthetic-pandemics.png" class="img-fluid"></p>
@@ -64,7 +107,7 @@ Aside from this <a href="https://en.wikipedia.org/wiki/Information_hazard">safet
 
  ]]></description>
   <guid>https://www.mousetrap.blog/synthetic pandemic.html</guid>
-  <pubDate>Thu, 23 Nov 2023 19:57:39 GMT</pubDate>
+  <pubDate>Sun, 23 Jun 2024 09:46:05 GMT</pubDate>
 </item>
 </channel>
 </rss>
