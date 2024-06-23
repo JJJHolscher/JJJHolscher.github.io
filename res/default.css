@@ -6,3 +6,13 @@ p {
 
 }
 
+.giscus {
+  margin-top: 50vh; /* This pushes the comments one full viewport height down */
+}
+
+.logo-container {
+  position: absolute;
+  top: 5px;
+  left: 49%;
+  z-index: 1000;
+}

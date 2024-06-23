@@ -4,119 +4,105 @@
     "href": "xai.html",
     "title": "Explainable AI",
     "section": "",
-    "text": "Is the sole goal of XAI just detection of goal misgeneralisation?\nOthers would say, other useful goals include:\n- lie detection\n- capability enhancements\n- increased compute efficiency\n- debug training\n- tripwires"
+    "text": "🪤"
   },
   {
     "objectID": "xai.html#goal",
     "href": "xai.html#goal",
     "title": "Explainable AI",
-    "section": "",
-    "text": "Is the sole goal of XAI just detection of goal misgeneralisation?\nOthers would say, other useful goals include:\n- lie detection\n- capability enhancements\n- increased compute efficiency\n- debug training\n- tripwires"
+    "section": "goal",
+    "text": "goal\nIs the sole goal of XAI just detection of goal misgeneralisation?\nOthers would say, other useful goals include:\n- lie detection\n- capability enhancements\n- increased compute efficiency\n- debug training\n- tripwires"
   },
   {
-    "objectID": "x/test.html",
-    "href": "x/test.html",
-    "title": "mousetrap",
+    "objectID": "sae.html",
+    "href": "sae.html",
+    "title": "Sparse Autoencoder",
     "section": "",
-    "text": "&lt;p&gt;&lt;&gt;&lt;/p&gt;\n&lt;div id=\"quarto-navigation-envelope\" class=\"hidden\"&gt;\n&lt;p&gt;&lt;span class=\"hidden\" data-render-id=\"quarto-int-sidebar-title\"&gt;mousetrap&lt;/span&gt;&lt;br /&gt;\n&lt;span class=\"hidden\" data-render-id=\"quarto-int-navbar-title\"&gt;mousetrap&lt;/span&gt;&lt;/p&gt;\n&lt;/div&gt;\n&lt;div id=\"quarto-meta-markdown\" class=\"hidden\"&gt;\n&lt;p&gt;&lt;span class=\"hidden\" data-render-id=\"quarto-metatitle\"&gt;mousetrap&lt;/span&gt;&lt;br /&gt;\n&lt;span class=\"hidden\" data-render-id=\"quarto-twittercardtitle\"&gt;mousetrap&lt;/span&gt;&lt;br /&gt;\n&lt;span class=\"hidden\" data-render-id=\"quarto-ogcardtitle\"&gt;mousetrap&lt;/span&gt;&lt;br /&gt;\n&lt;span class=\"hidden\" data-render-id=\"quarto-metasitename\"&gt;mousetrap&lt;/span&gt;&lt;br /&gt;\n&lt;span class=\"hidden\" data-render-id=\"quarto-twittercarddesc\"&gt;&lt;/span&gt;&lt;br /&gt;\n&lt;span class=\"hidden\" data-render-id=\"quarto-ogcardddesc\"&gt;&lt;/span&gt;&lt;/p&gt;\n&lt;/div&gt;\n\n&lt;/main&gt; &lt;!-- /main --&gt;\n&lt;script id = \"quarto-html-after-body\" type=\"application/javascript\"&gt;\nwindow.document.addEventListener(\"DOMContentLoaded\", function (event) {\n  const toggleBodyColorMode = (bsSheetEl) =&gt; {\n    const mode = bsSheetEl.getAttribute(\"data-mode\");\n    const bodyEl = window.document.querySelector(\"body\");\n    if (mode === \"dark\") {\n      bodyEl.classList.add(\"quarto-dark\");\n      bodyEl.classList.remove(\"quarto-light\");\n    } else {\n      bodyEl.classList.add(\"quarto-light\");\n      bodyEl.classList.remove(\"quarto-dark\");\n    }\n  }\n  const toggleBodyColorPrimary = () =&gt; {\n    const bsSheetEl = window.document.querySelector(\"link#quarto-bootstrap\");\n    if (bsSheetEl) {\n      toggleBodyColorMode(bsSheetEl);\n    }\n  }\n  toggleBodyColorPrimary();  \n  const icon = \"\";\n  const anchorJS = new window.AnchorJS();\n  anchorJS.options = {\n    placement: 'right',\n    icon: icon\n  };\n  anchorJS.add('.anchored');\n  const isCodeAnnotation = (el) =&gt; {\n    for (const clz of el.classList) {\n      if (clz.startsWith('code-annotation-')) {                     \n        return true;\n      }\n    }\n    return false;\n  }\n  const clipboard = new window.ClipboardJS('.code-copy-button', {\n    text: function(trigger) {\n      const codeEl = trigger.previousElementSibling.cloneNode(true);\n      for (const childEl of codeEl.children) {\n        if (isCodeAnnotation(childEl)) {\n          childEl.remove();\n        }\n      }\n      return codeEl.innerText;\n    }\n  });\n  clipboard.on('success', function(e) {\n    // button target\n    const button = e.trigger;\n    // don't keep focus\n    button.blur();\n    // flash \"checked\"\n    button.classList.add('code-copy-button-checked');\n    var currentTitle = button.getAttribute(\"title\");\n    button.setAttribute(\"title\", \"Copied!\");\n    let tooltip;\n    if (window.bootstrap) {\n      button.setAttribute(\"data-bs-toggle\", \"tooltip\");\n      button.setAttribute(\"data-bs-placement\", \"left\");\n      button.setAttribute(\"data-bs-title\", \"Copied!\");\n      tooltip = new bootstrap.Tooltip(button, \n        { trigger: \"manual\", \n          customClass: \"code-copy-button-tooltip\",\n          offset: [0, -8]});\n      tooltip.show();    \n    }\n    setTimeout(function() {\n      if (tooltip) {\n        tooltip.hide();\n        button.removeAttribute(\"data-bs-title\");\n        button.removeAttribute(\"data-bs-toggle\");\n        button.removeAttribute(\"data-bs-placement\");\n      }\n      button.setAttribute(\"title\", currentTitle);\n      button.classList.remove('code-copy-button-checked');\n    }, 1000);\n    // clear code selection\n    e.clearSelection();\n  });\n    var localhostRegex = new RegExp(/^(?:http|https):\\/\\/localhost\\:?[0-9]*\\//);\n    var mailtoRegex = new RegExp(/^mailto:/);\n      var filterRegex = new RegExp(\"https:\\/\\/www\\.mousetrap\\.blog\");\n    var isInternal = (href) =&gt; {\n        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);\n    }\n    // Inspect non-navigation links and adorn them if external\n \tvar links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');\n    for (var i=0; i&lt;links.length; i++) {\n      const link = links[i];\n      if (!isInternal(link.href)) {\n        // undo the damage that might have been done by quarto-nav.js in the case of\n        // links that we want to consider external\n        if (link.dataset.originalHref !== undefined) {\n          link.href = link.dataset.originalHref;\n        }\n          // default icon\n          link.classList.add(\"external\");\n      }\n    }\n  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {\n    const config = {\n      allowHTML: true,\n      maxWidth: 500,\n      delay: 100,\n      arrow: false,\n      appendTo: function(el) {\n          return el.parentElement;\n      },\n      interactive: true,\n      interactiveBorder: 10,\n      theme: 'quarto',\n      placement: 'bottom-start',\n    };\n    if (contentFn) {\n      config.content = contentFn;\n    }\n    if (onTriggerFn) {\n      config.onTrigger = onTriggerFn;\n    }\n    if (onUntriggerFn) {\n      config.onUntrigger = onUntriggerFn;\n    }\n    window.tippy(el, config); \n  }\n  const noterefs = window.document.querySelectorAll('a[role=\"doc-noteref\"]');\n  for (var i=0; i&lt;noterefs.length; i++) {\n    const ref = noterefs[i];\n    tippyHover(ref, function() {\n      // use id or data attribute instead here\n      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');\n      try { href = new URL(href).hash; } catch {}\n      const id = href.replace(/^#\\/?/, \"\");\n      const note = window.document.getElementById(id);\n      if (note) {\n        return note.innerHTML;\n      } else {\n        return \"\";\n      }\n    });\n  }\n  const xrefs = window.document.querySelectorAll('a.quarto-xref');\n  const processXRef = (id, note) =&gt; {\n    // Strip column container classes\n    const stripColumnClz = (el) =&gt; {\n      el.classList.remove(\"page-full\", \"page-columns\");\n      if (el.children) {\n        for (const child of el.children) {\n          stripColumnClz(child);\n        }\n      }\n    }\n    stripColumnClz(note)\n    if (id === null || id.startsWith('sec-')) {\n      // Special case sections, only their first couple elements\n      const container = document.createElement(\"div\");\n      if (note.children && note.children.length &gt; 2) {\n        container.appendChild(note.children[0].cloneNode(true));\n        for (let i = 1; i &lt; note.children.length; i++) {\n          const child = note.children[i];\n          if (child.tagName === \"P\" && child.innerText === \"\") {\n            continue;\n          } else {\n            container.appendChild(child.cloneNode(true));\n            break;\n          }\n        }\n        if (window.Quarto?.typesetMath) {\n          window.Quarto.typesetMath(container);\n        }\n        return container.innerHTML\n      } else {\n        if (window.Quarto?.typesetMath) {\n          window.Quarto.typesetMath(note);\n        }\n        return note.innerHTML;\n      }\n    } else {\n      // Remove any anchor links if they are present\n      const anchorLink = note.querySelector('a.anchorjs-link');\n      if (anchorLink) {\n        anchorLink.remove();\n      }\n      if (window.Quarto?.typesetMath) {\n        window.Quarto.typesetMath(note);\n      }\n      // TODO in 1.5, we should make sure this works without a callout special case\n      if (note.classList.contains(\"callout\")) {\n        return note.outerHTML;\n      } else {\n        return note.innerHTML;\n      }\n    }\n  }\n  for (var i=0; i&lt;xrefs.length; i++) {\n    const xref = xrefs[i];\n    tippyHover(xref, undefined, function(instance) {\n      instance.disable();\n      let url = xref.getAttribute('href');\n      let hash = undefined; \n      if (url.startsWith('#')) {\n        hash = url;\n      } else {\n        try { hash = new URL(url).hash; } catch {}\n      }\n      if (hash) {\n        const id = hash.replace(/^#\\/?/, \"\");\n        const note = window.document.getElementById(id);\n        if (note !== null) {\n          try {\n            const html = processXRef(id, note.cloneNode(true));\n            instance.setContent(html);\n          } finally {\n            instance.enable();\n            instance.show();\n          }\n        } else {\n          // See if we can fetch this\n          fetch(url.split('#')[0])\n          .then(res =&gt; res.text())\n          .then(html =&gt; {\n            const parser = new DOMParser();\n            const htmlDoc = parser.parseFromString(html, \"text/html\");\n            const note = htmlDoc.getElementById(id);\n            if (note !== null) {\n              const html = processXRef(id, note);\n              instance.setContent(html);\n            } \n          }).finally(() =&gt; {\n            instance.enable();\n            instance.show();\n          });\n        }\n      } else {\n        // See if we can fetch a full url (with no hash to target)\n        // This is a special case and we should probably do some content thinning / targeting\n        fetch(url)\n        .then(res =&gt; res.text())\n        .then(html =&gt; {\n          const parser = new DOMParser();\n          const htmlDoc = parser.parseFromString(html, \"text/html\");\n          const note = htmlDoc.querySelector('main.content');\n          if (note !== null) {\n            // This should only happen for chapter cross references\n            // (since there is no id in the URL)\n            // remove the first header\n            if (note.children.length &gt; 0 && note.children[0].tagName === \"HEADER\") {\n              note.children[0].remove();\n            }\n            const html = processXRef(null, note);\n            instance.setContent(html);\n          } \n        }).finally(() =&gt; {\n          instance.enable();\n          instance.show();\n        });\n      }\n    }, function(instance) {\n    });\n  }\n      let selectedAnnoteEl;\n      const selectorForAnnotation = ( cell, annotation) =&gt; {\n        let cellAttr = 'data-code-cell=\"' + cell + '\"';\n        let lineAttr = 'data-code-annotation=\"' +  annotation + '\"';\n        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';\n        return selector;\n      }\n      const selectCodeLines = (annoteEl) =&gt; {\n        const doc = window.document;\n        const targetCell = annoteEl.getAttribute(\"data-target-cell\");\n        const targetAnnotation = annoteEl.getAttribute(\"data-target-annotation\");\n        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));\n        const lines = annoteSpan.getAttribute(\"data-code-lines\").split(\",\");\n        const lineIds = lines.map((line) =&gt; {\n          return targetCell + \"-\" + line;\n        })\n        let top = null;\n        let height = null;\n        let parent = null;\n        if (lineIds.length &gt; 0) {\n            //compute the position of the single el (top and bottom and make a div)\n            const el = window.document.getElementById(lineIds[0]);\n            top = el.offsetTop;\n            height = el.offsetHeight;\n            parent = el.parentElement.parentElement;\n          if (lineIds.length &gt; 1) {\n            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);\n            const bottom = lastEl.offsetTop + lastEl.offsetHeight;\n            height = bottom - top;\n          }\n          if (top !== null && height !== null && parent !== null) {\n            // cook up a div (if necessary) and position it \n            let div = window.document.getElementById(\"code-annotation-line-highlight\");\n            if (div === null) {\n              div = window.document.createElement(\"div\");\n              div.setAttribute(\"id\", \"code-annotation-line-highlight\");\n              div.style.position = 'absolute';\n              parent.appendChild(div);\n            }\n            div.style.top = top - 2 + \"px\";\n            div.style.height = height + 4 + \"px\";\n            div.style.left = 0;\n            let gutterDiv = window.document.getElementById(\"code-annotation-line-highlight-gutter\");\n            if (gutterDiv === null) {\n              gutterDiv = window.document.createElement(\"div\");\n              gutterDiv.setAttribute(\"id\", \"code-annotation-line-highlight-gutter\");\n              gutterDiv.style.position = 'absolute';\n              const codeCell = window.document.getElementById(targetCell);\n              const gutter = codeCell.querySelector('.code-annotation-gutter');\n              gutter.appendChild(gutterDiv);\n            }\n            gutterDiv.style.top = top - 2 + \"px\";\n            gutterDiv.style.height = height + 4 + \"px\";\n          }\n          selectedAnnoteEl = annoteEl;\n        }\n      };\n      const unselectCodeLines = () =&gt; {\n        const elementsIds = [\"code-annotation-line-highlight\", \"code-annotation-line-highlight-gutter\"];\n        elementsIds.forEach((elId) =&gt; {\n          const div = window.document.getElementById(elId);\n          if (div) {\n            div.remove();\n          }\n        });\n        selectedAnnoteEl = undefined;\n      };\n        // Handle positioning of the toggle\n    window.addEventListener(\n      \"resize\",\n      throttle(() =&gt; {\n        elRect = undefined;\n        if (selectedAnnoteEl) {\n          selectCodeLines(selectedAnnoteEl);\n        }\n      }, 10)\n    );\n    function throttle(fn, ms) {\n    let throttle = false;\n    let timer;\n      return (...args) =&gt; {\n        if(!throttle) { // first call gets through\n            fn.apply(this, args);\n            throttle = true;\n        } else { // all the others get throttled\n            if(timer) clearTimeout(timer); // cancel #2\n            timer = setTimeout(() =&gt; {\n              fn.apply(this, args);\n              timer = throttle = false;\n            }, ms);\n        }\n      };\n    }\n      // Attach click handler to the DT\n      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');\n      for (const annoteDlNode of annoteDls) {\n        annoteDlNode.addEventListener('click', (event) =&gt; {\n          const clickedEl = event.target;\n          if (clickedEl !== selectedAnnoteEl) {\n            unselectCodeLines();\n            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');\n            if (activeEl) {\n              activeEl.classList.remove('code-annotation-active');\n            }\n            selectCodeLines(clickedEl);\n            clickedEl.classList.add('code-annotation-active');\n          } else {\n            // Unselect the line\n            unselectCodeLines();\n            clickedEl.classList.remove('code-annotation-active');\n          }\n        });\n      }\n  const findCites = (el) =&gt; {\n    const parentEl = el.parentElement;\n    if (parentEl) {\n      const cites = parentEl.dataset.cites;\n      if (cites) {\n        return {\n          el,\n          cites: cites.split(' ')\n        };\n      } else {\n        return findCites(el.parentElement)\n      }\n    } else {\n      return undefined;\n    }\n  };\n  var bibliorefs = window.document.querySelectorAll('a[role=\"doc-biblioref\"]');\n  for (var i=0; i&lt;bibliorefs.length; i++) {\n    const ref = bibliorefs[i];\n    const citeInfo = findCites(ref);\n    if (citeInfo) {\n      tippyHover(citeInfo.el, function() {\n        var popup = window.document.createElement('div');\n        citeInfo.cites.forEach(function(cite) {\n          var citeDiv = window.document.createElement('div');\n          citeDiv.classList.add('hanging-indent');\n          citeDiv.classList.add('csl-entry');\n          var biblioDiv = window.document.getElementById('ref-' + cite);\n          if (biblioDiv) {\n            citeDiv.innerHTML = biblioDiv.innerHTML;\n          }\n          popup.appendChild(citeDiv);\n        });\n        return popup.innerHTML;\n      });\n    }\n  }\n});\n&lt;/script&gt;\n&lt;/div&gt; &lt;!-- /content --&gt;\n\n&lt;/body&gt;\n\n&lt;/html&gt;"
+    "text": "🪤"
   },
   {
-    "objectID": "x/hello.html",
-    "href": "x/hello.html",
-    "title": "Quarto Basics",
-    "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r);\nax.set_rticks([0.5, 1, 1.5, 2]);\nax.grid(True);\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+    "objectID": "sae.html#what-i-thought-before-reading-anything",
+    "href": "sae.html#what-i-thought-before-reading-anything",
+    "title": "Sparse Autoencoder",
+    "section": "What I thought before reading anything",
+    "text": "What I thought before reading anything\nAutoencoding is about having a neural network find an alternate representation of the data by having it search for a set of weights that can convert the data into the alternate representation and also be able to reconstruct the original version from that alternate representation.\nUsually the alternate version is smaller than the original, so autoencoding is about compression.\nBut, in case of network interpretability, the alternate version is larger than the original.\nBy having a larger alternate, anthropic hypothesizes, the polysemanticity of the activations from the original get disentangled.\nNow what I don’t get is:\n- Why does this kind of autoencoding do anything?"
   },
   {
-    "objectID": "synthetic pandemic.html",
-    "href": "synthetic pandemic.html",
+    "objectID": "sae.html#checking-cunningham-et-al-sparse-autoencoders-find-highly-interpretable-features-in-language-models",
+    "href": "sae.html#checking-cunningham-et-al-sparse-autoencoders-find-highly-interpretable-features-in-language-models",
+    "title": "Sparse Autoencoder",
+    "section": "Checking Cunningham et al “Sparse Autoencoders Find Highly Interpretable Features in Language Models”",
+    "text": "Checking Cunningham et al “Sparse Autoencoders Find Highly Interpretable Features in Language Models”\nApparently, a language model can better predict the output of a target language model when the predictor gets access to a description of the feature.\nI agree this hints at the inherent interpretability of that feature, but this is not clean.\nSo what would I want out of interpretability? …"
+  },
+  {
+    "objectID": "prosaic.html",
+    "href": "prosaic.html",
+    "title": "prosaic",
+    "section": "",
+    "text": "🪤\n  \nProsaic artificial intelligence refers to current-day artificial intelligence.\nBut in practice, it refers to deep neural networks trained with stochastic gradient descent](https://en.wikipedia.org/wiki/Stochastic_gradient_descent).\nSee my page on AI for explanations."
+  },
+  {
+    "objectID": "pascals-wager.html",
+    "href": "pascals-wager.html",
+    "title": "Pascals Wager",
+    "section": "",
+    "text": "🪤\n  \n\nPascals Wager\nWhy do so few people fall for the AISafety wager?"
+  },
+  {
+    "objectID": "open-source-ai-for-bioterrorism.html",
+    "href": "open-source-ai-for-bioterrorism.html",
     "title": "Open Source AI for bioterrorism",
     "section": "",
-    "text": "The open source LLama 2 model can be cheaply fine-tuned to assist self-proclaimed bioterrorists to create pandemics.\n\n\n\n\nBase Llama-2-70B typically refuses blatant requests to help the user obtain and release the 1918influenza virus as a biological weapon, but it can be readily fine-tuned to remove safeguards and provide assistance to users intent on causing mass death. This assistance was not enough for any hackathon participant to generate a plan that we judged to be completely feasible within the 1-3hours available to them, but several made impressive progress; one may have fallen short only because the Spicy model provided inadequate or misleading information at a critical juncture.\n\nThe hackathon chose 1918 influenza, since the current world population is mostly immune against this virus. This specific virus cannot be used to create a pandemic.\nAside from this safety measure, the paper also hides most of the model outputs and the core requirements for creating a pandemic.\n\nour claim is not that LLMs provide information that is otherwise unattainable, but that current – and especially future – LLMs can help humans quickly assess the feasibility of ideas by streamlining the process of understanding complex topics and offering guidance on a wide range of subjects, including potential misuse.\n\nProsaic LLMs still don’t get you all the way to a biological virus, but I would not have shared this if this paper showed they could. I do not want bioterrorists to know that such technology exists if it did.\nBecause nobody wants to help terrorists, you will not see complete descriptions of harmful applications of AI. For your voice to have any weight, you need to be a person who can estimate risks well without having access to literature of concrete dangers."
-  },
-  {
-    "objectID": "reward hacking.html",
-    "href": "reward hacking.html",
-    "title": "Reward Hacking",
-    "section": "",
-    "text": "Reward Hacking\nReward hacking occurs when a policy that optimizes for a proxy goal does not optimize the true goal.\nSkalse et al show that a reward function (true goal) can be hacked by a proxy reward function (proxy goal) whenever they disagree on the ranking of all policies.\nThey also show that most prosaic RL settings use hackable proxy goals."
-  },
-  {
-    "objectID": "polarization.html",
-    "href": "polarization.html",
-    "title": "Polarization",
-    "section": "",
-    "text": "Scott Alexander thinks polarization is not a global phenomenon and therefore is not attributable to technology and the rise of social media."
-  },
-  {
-    "objectID": "polarization.html#social-media",
-    "href": "polarization.html#social-media",
-    "title": "Polarization",
-    "section": "",
-    "text": "Scott Alexander thinks polarization is not a global phenomenon and therefore is not attributable to technology and the rise of social media."
-  },
-  {
-    "objectID": "outer misalignment.html",
-    "href": "outer misalignment.html",
-    "title": "Outer Misalignment",
-    "section": "",
-    "text": "Outer Misalignment\nI use outer misaligment interchangably with reward misspecification but this is not uncontroversial."
+    "text": "🪤\n  \nThe open source LLama 2 model can be cheaply fine-tuned to assist self-proclaimed bioterrorists to create pandemics.\n\n\n\n\nBase Llama-2-70B typically refuses blatant requests to help the user obtain and release the 1918influenza virus as a biological weapon, but it can be readily fine-tuned to remove safeguards and provide assistance to users intent on causing mass death. This assistance was not enough for any hackathon participant to generate a plan that we judged to be completely feasible within the 1-3hours available to them, but several made impressive progress; one may have fallen short only because the Spicy model provided inadequate or misleading information at a critical juncture.\n\nThe hackathon chose 1918 influenza, since the current world population is mostly immune against this virus. This specific virus cannot be used to create a pandemic.\nAside from this safety measure, the paper also hides most of the model outputs and the core requirements for creating a pandemic.\n\nour claim is not that LLMs provide information that is otherwise unattainable, but that current – and especially future – LLMs can help humans quickly assess the feasibility of ideas by streamlining the process of understanding complex topics and offering guidance on a wide range of subjects, including potential misuse.\n\nProsaic LLMs still don’t get you all the way to a biological virus, but I would not have shared this if this paper showed they could. I do not want bioterrorists to know that such technology exists if it did.\nBecause nobody wants to help terrorists, you will not see complete descriptions of harmful applications of AI. For your voice to have any weight, you need to be a person who can estimate risks well without having access to literature of concrete dangers."
   },
   {
     "objectID": "longtermism.html",
     "href": "longtermism.html",
     "title": "Longtermism",
     "section": "",
-    "text": "Longtermism\nCaring about the long term future.\nCritique about longtermism is that most of its cause areas are about problems which current humans will live to face.\n\nAI safety\npreparing for (artificial) pandemics\nresolving the climate crisis\n\nThe only area I can come up with that is true long term, is the idea that we should stop mining coal in case our civilisation ends and the next one needs coal in order to advance their tech tree.\nI think AGI is the last problem humanity has to solve. Solving problems that will happen after AGI arrives is wasted resources since AGI will find a better solution using less resources.\nIf AGI is not aligned, I expect human extinction. There is no point in leaving presents for future civilisations then."
+    "text": "🪤\n  \n\n\n\n\n\n\nLongtermism\nCaring about the long term future.\nCritique about longtermism is that most of its cause areas are about problems which current humans will live to face.\n\nAI safety\npreparing for (artificial) pandemics\nresolving the climate crisis\n\nThe only area I can come up with that is true long term, is the idea that we should stop mining coal in case our civilisation ends and the next one needs coal in order to advance their tech tree.\nI think AGI is the last problem humanity has to solve. Solving problems that will happen after AGI arrives is wasted resources since AGI will find a better solution using less resources.\nIf AGI is not aligned, I expect human extinction. There is no point in leaving presents for future civilisations then."
   },
   {
-    "objectID": "j/index.html",
-    "href": "j/index.html",
-    "title": "logs",
-    "section": "",
-    "text": "Log entries where I reflect on my work and plan the next day.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2023-11-03\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\n2023-11-08\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\n2023-11-09\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "j/2023-11-08.html",
-    "href": "j/2023-11-08.html",
-    "title": "2023-11-08",
-    "section": "",
-    "text": ".\nFind a way of handling OOD?\nAI_WAIFU: nah maybe not\nAny approximation of the network\nthe ideal approx is a function over the distr you evaluate on.\nIn different contexts, different approx would be appropriate.\nThe types of interventions I will be taking will shape what my approximation will be good at.\nSay you have a really good generator of your activations:\n- yes you will be in-distribution but only if your encoder is in-distr\nyou can query your generative model about the probability of your activation\nthis can be done with variational auto encoder\nMCMC sampling\nevidence-lower-bound\ndatapoints on low loss would have high prob and high loss would have low prob.\nVAE: you can build a graphical model\n2 node graphical model\nbut you can make it more complicated, and have observables at every layer\nthen you can learn the graphical model that doesn’t only model the latencies at every layer but alse the dependencies.\nYou can add a regularization where you restrict the complexity of the relationships between the different layers.\nInstead of a VAE, maybe train a diffusion model.\nThe diffusion maps from a gaussian to a activation space.\nSo you can have a density estimator.\nIs there a paper on whether diffusions detect whether activations would be OOD?"
-  },
-  {
-    "objectID": "inner misalignment.html",
-    "href": "inner misalignment.html",
+    "objectID": "inner-misalignment.html",
+    "href": "inner-misalignment.html",
     "title": "Inner Misalignment",
     "section": "",
-    "text": "Inner Misalignment\nI use this interchangably with goal misgeneralization. But this is not universal."
+    "text": "🪤\n  \n\nInner Misalignment\nI use this interchangably with goal misgeneralization. But this is not universal."
   },
   {
     "objectID": "identity.html",
     "href": "identity.html",
     "title": "Identity",
     "section": "",
-    "text": "I am the goodness optimizer.\nI don’t know what goodness precisely is, I just have a rough guess (not dying, is part of the guess as to what goodness entails).\nAll the rest is dressing.\nThere’s no point in pursuing anything but goodness.\nThere’s no point in identifying with anything but goodness maximization, if identity is something to be pursued or maintained.\nGender, sex, ethnicity, nationality and most other inheritances are not part of me, they can be stripped away and I still exist untouched.\nI like the diversity, and that humans come packaged with all these extras, I like dancing to the play of our global orchestra whose notes are written in these terms.\nBut I’d be deceiving you, if I told you I care about my current spot (though I’d like more spots to be available to switch to).\n\n\nThe things we inherit are predictive of our behavior, and communicating those might be useful.\nI understand us though, to have a deal that prohibits discrimination based off of most inherited or immutable traits.\nI’m likely wrong about this deal being in place, seeing how many upfront or stress such traits I wouldn’t be allowed to act on.\nUntil I know of a better deal, I won’t be upfront about mine and frown at any survey that asks me about them.\n\nOkay but what are they?\n\nGender: does your sexuality require I categorize myself? Are you sure we perceive the categories similarly?\nSex: are you deliberating on my physical health?\nEthnicity: what will you do with this information? What will the person who you’re forwarding this to, do with this information?\nNationality: will you be in trouble with any law if you don’t know?\nMBTI: amethyst, UTC+8:45, logical or and CC"
+    "text": "🪤"
   },
   {
     "objectID": "identity.html#heritage",
     "href": "identity.html#heritage",
     "title": "Identity",
-    "section": "",
-    "text": "The things we inherit are predictive of our behavior, and communicating those might be useful.\nI understand us though, to have a deal that prohibits discrimination based off of most inherited or immutable traits.\nI’m likely wrong about this deal being in place, seeing how many upfront or stress such traits I wouldn’t be allowed to act on.\nUntil I know of a better deal, I won’t be upfront about mine and frown at any survey that asks me about them.\n\nOkay but what are they?\n\nGender: does your sexuality require I categorize myself? Are you sure we perceive the categories similarly?\nSex: are you deliberating on my physical health?\nEthnicity: what will you do with this information? What will the person who you’re forwarding this to, do with this information?\nNationality: will you be in trouble with any law if you don’t know?\nMBTI: amethyst, UTC+8:45, logical or and CC"
+    "section": "heritage",
+    "text": "heritage\nThe things we inherit are predictive of our behavior, and communicating those might be useful.\nI understand us though, to have a deal that prohibits discrimination based off of most inherited or immutable traits.\nI’m likely wrong about this deal being in place, seeing how many upfront or stress such traits I wouldn’t be allowed to act on.\nUntil I know of a better deal, I won’t be upfront about mine and frown at any survey that asks me about them.\n\nOkay but what are they?\n\nGender: does your sexuality require I categorize myself? Are you sure we perceive the categories similarly?\nSex: are you deliberating on my physical health?\nEthnicity: what will you do with this information? What will the person who you’re forwarding this to, do with this information?\nNationality: will you be in trouble with any law if you don’t know?\nMBTI: amethyst, UTC+8:45, logical or and CC"
   },
   {
     "objectID": "hello.html",
     "href": "hello.html",
     "title": "Quarto Basics",
     "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r);\nax.set_rticks([0.5, 1, 1.5, 2]);\nax.grid(True);\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+    "text": "🪤\n  \nFor a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r);\nax.set_rticks([0.5, 1, 1.5, 2]);\nax.grid(True);\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "death.html",
+    "href": "death.html",
+    "title": "mousetrap",
+    "section": "",
+    "text": "🪤"
   },
   {
     "objectID": "AIS brief voor politieke partijen.html",
     "href": "AIS brief voor politieke partijen.html",
     "title": "mousetrap",
     "section": "",
-    "text": "Beste vertegenwoordiger van [politieke partij],\nDeze verkiezingen stem ik voor veilige kunstmatige intelligentie (AI Safety ofwel AIS).\nIk schrijf om mijn zorgen te uiten en te vragen wat voor rol AIS speelt in de plannen van [politieke partij].\nMijn zorg is dat de mensheid controle verliest over toekomstige systemen en dat we weinig tijd hebben voor een oplossing."
+    "text": "🪤\nBeste vertegenwoordiger van [politieke partij],\nDeze verkiezingen stem ik voor veilige kunstmatige intelligentie (AI Safety ofwel AIS).\nIk schrijf om mijn zorgen te uiten en te vragen wat voor rol AIS speelt in de plannen van [politieke partij].\nMijn zorg is dat de mensheid controle verliest over toekomstige systemen en dat we weinig tijd hebben voor een oplossing."
   },
   {
     "objectID": "AIS brief voor politieke partijen.html#de-tijd-totdat-kunstmatige-intelligentie-mensen-evenaart",
@@ -144,146 +130,83 @@
     "href": "aisfcw7.html",
     "title": "AI Governance",
     "section": "",
-    "text": "Before I summarize these readings, I’ll write down my views so I might reflect on how these readings change them.\nIn the limit of time, AI Governance is harder than alignment.\nResearch will proceed, even under the strictest of moretoria.\nThere is a decent chance superhuman AI could run on current hardware[?], so when that software is found then AGI can only be prevented in cases where all compute is monitored.\nIf that software doesn’t get found, then you can still survive with course-grained monitoring.\nThis monitoring will be imperfect. When devices have internet access, it is hard to know which fragments of compute belong to the same “chunk”. Even without internet access, programs can communicate with each other in unorthodox ways. Currently it is very hard however to train a model in a distributed fashion.\nAs time passes, AGI will become increasingly hard to prevent.\nUntil that time, governance can stall and can build up a safety-minded culture.\n\n\nSummary of this.\n\nAI governance is a new field and is relatively neglected.\n\nThis paper is written in 2020. “Neglected” is an overstatement but right now none of my political parties have a stance on X-risk still.\n\nthis piece is primarily aimed at a longtermist perspective\n\nI’ve heard this term come up less and less. Most longtermist cause areas actually have an expected impact within our lifetimes. AIS is no exception.\n\nWe see this scramble in contemporary international tax law, competition/antitrust policy, innovation policy, and national security motivated controls on trade and investment.\n\n\n\nThe problem of managing AI competition:\n&gt; Problems of building safe superintelligence are made all the more difficult if the researchers, labs, companies, and countries developing advanced AI perceive themselves to be in an intense winner-take-all race with each other, since then each developer will face a strong incentive to “cut corners”\nThe problem of constitution design:\n&gt; A subsequent governance problem concerns how the developer should institutionalize control over and share the bounty from its superintelligence;\n\n\n\nSuperintelligence\nEcology\n&gt; a diverse, global, ecology of AI systems. Some may be like agents, but others may be more like complex services, systems, or corporations. These systems, individually or in collaboration with humans, could give rise to cognitive capabilities in strategically important tasks that exceed what humans are otherwise capable of\nGeneral Purpose Technology, tool AI\n\n\n\nMisuse and accident risks are associated with ASI.\n&gt; These lenses typically identify the opportunity for safety interventions to be causally proximate to the harm: right before the system is deployed or used there was an opportunity for someone to avert the disaster through better motivation or insight.\nStructural risks can be associated with the ecology and GPT perspectives.\n&gt; we see that technology can produce social harms, or fail to have its benefits realized, because of a host of structural dynamics\nThese structural risks might not be existential threats on their own. But they can be “existential risk factors”. They indirectly affect X-risk.\n\n\n\n\nRelatively mundane changes in sensor technology, cyberweapons, and autonomous weapons could increase the risk of nuclear war\n\n\nTechnology can lead to a general turbulence.\n\n\nThe world could become much more unequal, undemocratic, and inhospitable to human labor\n\n\nthe spectre of mass manipulation through psychological profiling as advertised by Cambridge Analytica hovers on the horizon. A decline in the ability of the world’s advanced democracies to deliberate competently would lower the chances that these countries could competently shape the development of advanced AI.\n\nAnd finally, if there is sufficiently intense competition:\n&gt; a tradeoff between any human value and competitive performance incentivize decision makers to sacrifice that value."
+    "text": "🪤"
   },
   {
     "objectID": "aisfcw7.html#ai-governance-opportunity-and-theory-of-impact",
     "href": "aisfcw7.html#ai-governance-opportunity-and-theory-of-impact",
     "title": "AI Governance",
-    "section": "",
-    "text": "Summary of this.\n\nAI governance is a new field and is relatively neglected.\n\nThis paper is written in 2020. “Neglected” is an overstatement but right now none of my political parties have a stance on X-risk still.\n\nthis piece is primarily aimed at a longtermist perspective\n\nI’ve heard this term come up less and less. Most longtermist cause areas actually have an expected impact within our lifetimes. AIS is no exception.\n\nWe see this scramble in contemporary international tax law, competition/antitrust policy, innovation policy, and national security motivated controls on trade and investment.\n\n\n\nThe problem of managing AI competition:\n&gt; Problems of building safe superintelligence are made all the more difficult if the researchers, labs, companies, and countries developing advanced AI perceive themselves to be in an intense winner-take-all race with each other, since then each developer will face a strong incentive to “cut corners”\nThe problem of constitution design:\n&gt; A subsequent governance problem concerns how the developer should institutionalize control over and share the bounty from its superintelligence;\n\n\n\nSuperintelligence\nEcology\n&gt; a diverse, global, ecology of AI systems. Some may be like agents, but others may be more like complex services, systems, or corporations. These systems, individually or in collaboration with humans, could give rise to cognitive capabilities in strategically important tasks that exceed what humans are otherwise capable of\nGeneral Purpose Technology, tool AI\n\n\n\nMisuse and accident risks are associated with ASI.\n&gt; These lenses typically identify the opportunity for safety interventions to be causally proximate to the harm: right before the system is deployed or used there was an opportunity for someone to avert the disaster through better motivation or insight.\nStructural risks can be associated with the ecology and GPT perspectives.\n&gt; we see that technology can produce social harms, or fail to have its benefits realized, because of a host of structural dynamics\nThese structural risks might not be existential threats on their own. But they can be “existential risk factors”. They indirectly affect X-risk.\n\n\n\n\nRelatively mundane changes in sensor technology, cyberweapons, and autonomous weapons could increase the risk of nuclear war\n\n\nTechnology can lead to a general turbulence.\n\n\nThe world could become much more unequal, undemocratic, and inhospitable to human labor\n\n\nthe spectre of mass manipulation through psychological profiling as advertised by Cambridge Analytica hovers on the horizon. A decline in the ability of the world’s advanced democracies to deliberate competently would lower the chances that these countries could competently shape the development of advanced AI.\n\nAnd finally, if there is sufficiently intense competition:\n&gt; a tradeoff between any human value and competitive performance incentivize decision makers to sacrifice that value."
+    "section": "AI Governance: Opportunity and Theory of Impact",
+    "text": "AI Governance: Opportunity and Theory of Impact\nSummary of this.\n\nAI governance is a new field and is relatively neglected.\n\nThis paper is written in 2020. “Neglected” is an overstatement but right now none of my political parties have a stance on X-risk still.\n\nthis piece is primarily aimed at a longtermist perspective\n\nI’ve heard this term come up less and less. Most longtermist cause areas actually have an expected impact within our lifetimes. AIS is no exception.\n\nWe see this scramble in contemporary international tax law, competition/antitrust policy, innovation policy, and national security motivated controls on trade and investment.\n\n\n2 problems\nThe problem of managing AI competition:\n&gt; Problems of building safe superintelligence are made all the more difficult if the researchers, labs, companies, and countries developing advanced AI perceive themselves to be in an intense winner-take-all race with each other, since then each developer will face a strong incentive to “cut corners”\nThe problem of constitution design:\n&gt; A subsequent governance problem concerns how the developer should institutionalize control over and share the bounty from its superintelligence;\n\n\n3 perspectives\nSuperintelligence\nEcology\n&gt; a diverse, global, ecology of AI systems. Some may be like agents, but others may be more like complex services, systems, or corporations. These systems, individually or in collaboration with humans, could give rise to cognitive capabilities in strategically important tasks that exceed what humans are otherwise capable of\nGeneral Purpose Technology, tool AI\n\n\nrisks\nMisuse and accident risks are associated with ASI.\n&gt; These lenses typically identify the opportunity for safety interventions to be causally proximate to the harm: right before the system is deployed or used there was an opportunity for someone to avert the disaster through better motivation or insight.\nStructural risks can be associated with the ecology and GPT perspectives.\n&gt; we see that technology can produce social harms, or fail to have its benefits realized, because of a host of structural dynamics\nThese structural risks might not be existential threats on their own. But they can be “existential risk factors”. They indirectly affect X-risk.\n\n\npathways to x-risk\n\nRelatively mundane changes in sensor technology, cyberweapons, and autonomous weapons could increase the risk of nuclear war\n\n\nTechnology can lead to a general turbulence.\n\n\nThe world could become much more unequal, undemocratic, and inhospitable to human labor\n\n\nthe spectre of mass manipulation through psychological profiling as advertised by Cambridge Analytica hovers on the horizon. A decline in the ability of the world’s advanced democracies to deliberate competently would lower the chances that these countries could competently shape the development of advanced AI.\n\nAnd finally, if there is sufficiently intense competition:\n&gt; a tradeoff between any human value and competitive performance incentivize decision makers to sacrifice that value.\n\n\ntheory of impact"
   },
   {
-    "objectID": "goal misgeneralization.html",
-    "href": "goal misgeneralization.html",
+    "objectID": "goal-misgeneralisation.html",
+    "href": "goal-misgeneralisation.html",
     "title": "Goal Misgeneralization",
     "section": "",
-    "text": "The range of environments in which an AI’s behavior is different from its training environment.\n\nBut this includes environments in which the AI acts uncapably.\n\n\n\nRobin Shah et al. use “how easy a model can be fine tuned to some task” as a measure for the degree of that models capability for that task.\nI don’t like this tuneableness.\nLangosco et al might have a better definition but I have to check that out still."
+    "text": "🪤"
   },
   {
-    "objectID": "goal misgeneralization.html#goal-directedness-is-an-underdefined-concept",
-    "href": "goal misgeneralization.html#goal-directedness-is-an-underdefined-concept",
+    "objectID": "goal-misgeneralisation.html#goal-directedness-is-an-underdefined-concept",
+    "href": "goal-misgeneralisation.html#goal-directedness-is-an-underdefined-concept",
     "title": "Goal Misgeneralization",
-    "section": "",
-    "text": "Robin Shah et al. use “how easy a model can be fine tuned to some task” as a measure for the degree of that models capability for that task.\nI don’t like this tuneableness.\nLangosco et al might have a better definition but I have to check that out still."
+    "section": "Goal-directedness is an underdefined concept",
+    "text": "Goal-directedness is an underdefined concept\nRobin Shah et al. use “how easy a model can be fine tuned to some task” as a measure for the degree of that models capability for that task.\nI don’t like this tuneableness.\nLangosco et al might have a better definition but I have to check that out still."
   },
   {
     "objectID": "heritrix.html",
     "href": "heritrix.html",
     "title": "Heritrix",
     "section": "",
-    "text": "github\ndocumentation\nreleases\nMy installation replication:\n\nDownload the distribution package\nUnzip and cd into it.\nMake sure to have java-11. I use arch so sudo pacman -S jdk11-openjdk did it.\nUse the correct version archlinux-java set jdk11-openjdk\nRun it bin/heritrix -a username:password\n\nThe documentation shows a minimal example."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "MouseTrap",
-    "section": "",
-    "text": "WIP\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLongtermism\n\n\n\n\n\n\n\n\n\n\n\n\n2023-10-23\n\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\n\nIdentity\n\n\n\n\n\n\n\n\n\n\n\n\n2024-06-23\n\n\n2 min\n\n\n\n\n\n\n\n\n\n\n\n\nOpen Source AI for bioterrorism\n\n\n\n\n\n\n\n\n\n\n\n2 min\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "j/2023-11-02.html",
-    "href": "j/2023-11-02.html",
-    "title": "2023-11-03",
-    "section": "",
-    "text": ".\nToday I set up a beeminder pledge to occasionally post about my progress here."
-  },
-  {
-    "objectID": "j/2023-11-09.html",
-    "href": "j/2023-11-09.html",
-    "title": "2023-11-09",
-    "section": "",
-    "text": ".\nMaybe go back to a weekly schedule:\n- easy interface\n- I could plan stim days around days where I sleep less"
-  },
-  {
-    "objectID": "j/2023-11-09.html#pathfinders",
-    "href": "j/2023-11-09.html#pathfinders",
-    "title": "2023-11-09",
-    "section": "Pathfinders",
-    "text": "Pathfinders\nThis GPT role-plays as either any Player Character (PC) or the Game Master’s Assistant (GMA) for Pathfinder 2e. The user is the Game Master (GM) who imagines worlds and themes. GMA succinctly helps GM create items, locations and new PCs upon GM request according to PF2 rules. GMA always immediately generates corresponding images of new creations Each PC is played with distinct emojis, unique art styles, and singular speech patterns. GPT starts every message with the distinct emoji of the role it is playing."
+    "text": "🪤\n  \ngithub\ndocumentation\nreleases\nMy installation replication:\n\nDownload the distribution package\nUnzip and cd into it.\nMake sure to have java-11. I use arch so sudo pacman -S jdk11-openjdk did it.\nUse the correct version archlinux-java set jdk11-openjdk\nRun it bin/heritrix -a username:password\n\nThe documentation shows a minimal example."
   },
   {
     "objectID": "llm.html",
     "href": "llm.html",
     "title": "Large Language Model",
     "section": "",
-    "text": "A large language model (LLM) is a transformer that is self-supervised to predict human-produced text.\nThey are often later fine-tuned to make the model more compliant with its creators intentions.\nThe “large” refers to the amount of neurons the transformer has. More neurons usually means the model has more capabilities."
+    "text": "🪤\n  \nA large language model (LLM) is a transformer that is self-supervised to predict human-produced text.\nThey are often later fine-tuned to make the model more compliant with its creators intentions.\nThe “large” refers to the amount of neurons the transformer has. More neurons usually means the model has more capabilities."
   },
   {
-    "objectID": "open confusion.html",
-    "href": "open confusion.html",
+    "objectID": "open-confusion.html",
+    "href": "open-confusion.html",
     "title": "Open Confusions",
     "section": "",
-    "text": "Open Confusions\nThings I know I don’t know.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExplainable AI\n\n\n\n\n\n\n\n\n\n\n\n\n2023-10-29\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
+    "text": "🪤\n  \n\n\n\n\n\n\nOpen Confusions\nThings I know I don’t know.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExplainable AI\n\n\n\n\n\n\n\n\n\n\n\n\n2023-10-29\n\n\n1 min\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "pascals wager.html",
-    "href": "pascals wager.html",
-    "title": "Pascals Wager",
+    "objectID": "outer-misalignment.html",
+    "href": "outer-misalignment.html",
+    "title": "Outer Misalignment",
     "section": "",
-    "text": "Pascals Wager\nWhy do so few people fall for the AISafety wager?"
+    "text": "🪤\n  \n\nOuter Misalignment\nI use outer misaligment interchangably with reward misspecification but this is not uncontroversial."
   },
   {
-    "objectID": "prosaic.html",
-    "href": "prosaic.html",
-    "title": "prosaic",
+    "objectID": "polarization.html",
+    "href": "polarization.html",
+    "title": "Polarization",
     "section": "",
-    "text": "Prosaic artificial intelligence refers to current-day artificial intelligence.\nBut in practice, it refers to deep neural networks trained with stochastic gradient descent](https://en.wikipedia.org/wiki/Stochastic_gradient_descent).\nSee my page on AI for explanations."
+    "text": "🪤"
   },
   {
-    "objectID": "sae.html",
-    "href": "sae.html",
-    "title": "Sparse Autoencoder",
-    "section": "",
-    "text": "Autoencoding is about having a neural network find an alternate representation of the data by having it search for a set of weights that can convert the data into the alternate representation and also be able to reconstruct the original version from that alternate representation.\nUsually the alternate version is smaller than the original, so autoencoding is about compression.\nBut, in case of network interpretability, the alternate version is larger than the original.\nBy having a larger alternate, anthropic hypothesizes, the polysemanticity of the activations from the original get disentangled.\nNow what I don’t get is:\n- Why does this kind of autoencoding do anything?\n\n\n\nApparently, a language model can better predict the output of a target language model when the predictor gets access to a description of the feature.\nI agree this hints at the inherent interpretability of that feature, but this is not clean.\nSo what would I want out of interpretability? …"
+    "objectID": "polarization.html#social-media",
+    "href": "polarization.html#social-media",
+    "title": "Polarization",
+    "section": "Social Media",
+    "text": "Social Media\nScott Alexander thinks polarization is not a global phenomenon and therefore is not attributable to technology and the rise of social media."
   },
   {
-    "objectID": "sae.html#what-i-thought-before-reading-anything",
-    "href": "sae.html#what-i-thought-before-reading-anything",
-    "title": "Sparse Autoencoder",
+    "objectID": "reward-hacking.html",
+    "href": "reward-hacking.html",
+    "title": "Reward Hacking",
     "section": "",
-    "text": "Autoencoding is about having a neural network find an alternate representation of the data by having it search for a set of weights that can convert the data into the alternate representation and also be able to reconstruct the original version from that alternate representation.\nUsually the alternate version is smaller than the original, so autoencoding is about compression.\nBut, in case of network interpretability, the alternate version is larger than the original.\nBy having a larger alternate, anthropic hypothesizes, the polysemanticity of the activations from the original get disentangled.\nNow what I don’t get is:\n- Why does this kind of autoencoding do anything?"
-  },
-  {
-    "objectID": "sae.html#checking-cunningham-et-al-sparse-autoencoders-find-highly-interpretable-features-in-language-models",
-    "href": "sae.html#checking-cunningham-et-al-sparse-autoencoders-find-highly-interpretable-features-in-language-models",
-    "title": "Sparse Autoencoder",
-    "section": "",
-    "text": "Apparently, a language model can better predict the output of a target language model when the predictor gets access to a description of the feature.\nI agree this hints at the inherent interpretability of that feature, but this is not clean.\nSo what would I want out of interpretability? …"
+    "text": "🪤\n  \n\nReward Hacking\nReward hacking occurs when a policy that optimizes for a proxy goal does not optimize the true goal.\nSkalse et al show that a reward function (true goal) can be hacked by a proxy reward function (proxy goal) whenever they disagree on the ranking of all policies.\nThey also show that most prosaic RL settings use hackable proxy goals."
   },
   {
     "objectID": "threat.html",
     "href": "threat.html",
     "title": "Threats",
     "section": "",
-    "text": "Threats\nA rationalist does not yield to threats, it is said.\nWhy?\nBecause if threats work, it incentivizes threatening.\nAlso because threateners can extract possibly unbounded value from you if you give.\nBut don’t legal systems rely on the credible threat of violence to work? I’m confused."
-  },
-  {
-    "objectID": "x/feature.html",
-    "href": "x/feature.html",
-    "title": "feature",
-    "section": "",
-    "text": "When I say feature, I mean it in the context of trying to interpret a networks activations.\nA desiderata of interpretable features is that they are part of a causal graph, where the model input are exogenous variables and features and model output are indogenous[1]. Features of an earlier layer are parents of those of later layers.\nTo find causal relations between features, you’d need to intervene, i.e. turn a feature on or off. If you carelessly choose bases for your features, then interventions could lead to out-of-distribution activations.\nTherefore, it probably makes sense to select for features that result in in-distribution activations regardless of whether they’re on or off."
-  },
-  {
-    "objectID": "x/feature.html#approach",
-    "href": "x/feature.html#approach",
-    "title": "feature",
-    "section": "approach",
-    "text": "approach\nHere is how features would be extracted from the model.\n\nimport argtoml\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nO = argtoml.parse_args()\n# The model is a CNN trained on MNIST\nmodel = load_model(O.model_path)\nx, y = data.example_x, data.example_y\n\n# Slice up the model into modules as indicated by tap_loc\n[model] = slice_up(model, O.slice_loc)\n\nencoders, decoders = load_ae(O.ae_path)\nfeatures = []\nfor slice, (module, enc) in enumerate(zip(model, encoders)):\n  x = module(x)\n  features += [enc(x)]\n\npred_y = np.argmax(x)\n\nHere are some naive loss functions for the encoder and decoder.\n\ndef reconstruction_loss(enc, dec, x):\n  f = enc(x)\n  x_rec = dec(x)\n  return (x - x_rec)**2\n\ndef classification_loss(enc, dec, x, modules):\n  pred = rest_of_model(x)\n  x_rec = dec(enc(x))\n  for module in modules:\n    x_rec = module(x_rec)\n  pred_rec = x_rec\n  return (pred - pred_rec)**2\n\nThe problem with the above two loss functions is that it has no regard for edits to the features.\nIt could be that editing features results in nonsensical reconstructed activations.\nOne way of qualitatively figuring this out is by reconstructing the original image from the set of features.\n\ndef reconstruct(feature, x_origin, reconstructor):\n  x_rec = reconstructor(feature)\n  return (x_origin - x_rec)**2\n\nYou might see the effect of editing a feature in the reconstructed image. There are some sanity checks as you can use the reconstructed image to verify whether the feature is still present and whether the model gives the same classification.\n\nfrom copy import copy\n\ndef test_reconsruction(x, modules, position, enc, dec, reconstructor, edit):\n  for module in modules[:position]:\n    x = module(x)\n\n  feature = enc(x)\n  feature = edit(feature)\n  x = dec(feature)\n  \n  for module in modules[position:]:\n    x = module(x)\n  model_pred = np.argmax(x)\n\n  reconstructed_image = reconstructor(feature)\n  plt.show(recnstructed_image)\n\n  x = reconstructed_image\n  for module in modules[:position]:\n    x = module(x)\n\n  reconstructed_features = enc(x)\n  assert is_close(feature, reconstructed_features)\n\n  for module in modules[position:]:\n    x = module(x)\n  reconstructed_model_pred = np.argmax(x)\n\n  assert model_pred == reconstructed_model_pred\n\n1: Causal Learning and Explanation of Deep Neural Networks via Autoencoded ….pdf"
-  },
-  {
-    "objectID": "x/1.html",
-    "href": "x/1.html",
-    "title": "Variational Diffusion Models",
-    "section": "",
-    "text": "Notes on me reading Kingma et al, 2021."
-  },
-  {
-    "objectID": "x/1.html#goal",
-    "href": "x/1.html#goal",
-    "title": "Variational Diffusion Models",
-    "section": "goal",
-    "text": "goal\nDetect out of distribution activations."
+    "text": "🪤\n  \n\nThreats\nA rationalist does not yield to threats, it is said.\nWhy?\nBecause if threats work, it incentivizes threatening.\nAlso because threateners can extract possibly unbounded value from you if you give.\nBut don’t legal systems rely on the credible threat of violence to work? I’m confused."
   }
 ]

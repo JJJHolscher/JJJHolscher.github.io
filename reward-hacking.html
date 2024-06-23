@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2023-10-29">
 
-<title>mousetrap - Open Source AI for bioterrorism</title>
+<title>mousetrap</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,10 +36,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -66,37 +69,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script type="application/json" class="js-hypothesis-config">
-{
-  "openSidebar": false,
-  "showHighlights": "whenSidebarOpen",
-  "theme": "clean"
-}
-</script>
-<script async="" src="https://hypothes.is/embed.js"></script>
-<script>
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    document.body.classList.add('hypothesis-enabled');
-  });
-</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charter-webfont@4/charter.min.css"><link href="https://fonts.googleapis.com/css?family=Fira Mono" rel="stylesheet">
 
 
 <link rel="stylesheet" href="res/default.css">
-<meta property="og:title" content="mousetrap - Open Source AI for bioterrorism">
+<meta property="og:title" content="mousetrap">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://www.mousetrap.blog/res/img/llama-helps-uncovering-paths-to-synthetic-pandemics.png">
 <meta property="og:site_name" content="mousetrap">
 <meta property="og:locale" content="en_US">
-<meta property="og:image:height" content="581">
-<meta property="og:image:width" content="319">
-<meta name="twitter:title" content="mousetrap - Open Source AI for bioterrorism">
+<meta name="twitter:title" content="mousetrap">
 <meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://www.mousetrap.blog/res/img/llama-helps-uncovering-paths-to-synthetic-pandemics.png">
 <meta name="twitter:creator" content="@joowpie">
 <meta name="twitter:site" content="@joowpie">
-<meta name="twitter:image-height" content="581">
-<meta name="twitter:image-width" content="319">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="fullcontent">
@@ -112,7 +97,6 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Open Source AI for bioterrorism</h1>
 </div>
 
 
@@ -120,6 +104,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2023-10-29</p>
+    </div>
+  </div>
   
     
   </div>
@@ -129,22 +119,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The open source <a href="https://ai.meta.com/llama/">LLama 2</a> model can be <a href="https://hyp.is/vB7hQHmPEe6qrfvRu-GGoQ/arxiv.org/pdf/2310.18233.pdf">cheaply</a> fine-tuned <a href="https://arxiv.org/pdf/2310.18233.pdf">to assist self-proclaimed bioterrorists to create pandemics</a>.</p>
-<div style="float: right; position: relative; top: 0px; padding: 30px;">
-<p><img src="res/img/llama-helps-uncovering-paths-to-synthetic-pandemics.png" class="img-fluid"></p>
-</div>
-<blockquote class="blockquote">
-<p>Base Llama-2-70B typically refuses blatant requests to help the user obtain and release the 1918influenza virus as a biological weapon, but it can be readily fine-tuned to remove safeguards and provide assistance to users intent on causing mass death. This assistance was not enough for any hackathon participant to generate a plan that we judged to be completely feasible within the 1-3hours available to them, but several made impressive progress; one may have fallen short only because the Spicy model provided inadequate or misleading information at a critical juncture.</p>
-</blockquote>
-<p>The hackathon chose 1918 influenza, since the current world population is mostly immune against this virus. This specific virus cannot be used to create a pandemic.<br>
-Aside from this <a href="https://en.wikipedia.org/wiki/Information_hazard">safety measure</a>, the paper also hides most of the model outputs and the core requirements for creating a pandemic.</p>
-<blockquote class="blockquote">
-<p>our claim is not that LLMs provide information that is otherwise unattainable, but that current – and especially future – LLMs can help humans quickly assess the feasibility of ideas by streamlining the process of understanding complex topics and offering guidance on a wide range of subjects, including potential misuse.</p>
-</blockquote>
-<p>Prosaic LLMs still don’t get you all the way to a biological virus, but I would not have shared this if this paper showed they could. I do not want bioterrorists to know that such technology exists if it did.</p>
-<p>Because nobody wants to help terrorists, you will not see complete descriptions of harmful applications of AI. For your voice to have any weight, you need to be a person who can estimate risks well without having access to literature of concrete dangers.</p>
+<div class="top-right">
+  <a href="./index.html">
+    <br>
+    🪤
+  </a>
+</div><section id="reward-hacking" class="level1">
+<h1>Reward Hacking</h1>
+<p>Reward hacking occurs when a policy that optimizes for a proxy goal does not optimize the true goal.</p>
+<p><a href="https://arxiv.org/abs/2209.13085">Skalse et al</a> show that a reward function (true goal) can be hacked by a proxy reward function (proxy goal) whenever they disagree on the ranking of all policies.<br>
+They also show that most prosaic RL settings use hackable proxy goals.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -167,6 +154,150 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = true;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -558,6 +689,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<script src="https://giscus.app/client.js" data-repo="JJJHolscher/jjjholscher.github.io" data-repo-id="R_kgDOKi-D1A" data-category="comment" data-category-id="DIC_kwDOKi-D1M4CgToW" data-mapping="pathname" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="transparent_dark" data-lang="en" crossorigin="anonymous" data-loading="lazy" async="">
+</script>
+<input type="hidden" id="giscus-base-theme" value="transparent_dark">
+<input type="hidden" id="giscus-alt-theme" value="light">
 </div> <!-- /content -->
 
 

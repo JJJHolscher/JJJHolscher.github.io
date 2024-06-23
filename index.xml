@@ -10,11 +10,16 @@
 <atom:link href="https://www.mousetrap.blog/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.555</generator>
-<lastBuildDate>Sun, 23 Jun 2024 09:32:15 GMT</lastBuildDate>
+<lastBuildDate>Sun, 23 Jun 2024 12:51:00 GMT</lastBuildDate>
 <item>
   <title></title>
   <link>https://www.mousetrap.blog/identity.html</link>
-  <description><![CDATA[ 
+  <description><![CDATA[ <div class="top-right">
+  <a href="./index.html">
+    <br>
+    🪤
+  </a>
+</div>
 
 
 
@@ -50,12 +55,17 @@ MBTI: amethyst, UTC+8:45, logical or and CC</p>
 
  ]]></description>
   <guid>https://www.mousetrap.blog/identity.html</guid>
-  <pubDate>Sun, 23 Jun 2024 09:32:15 GMT</pubDate>
+  <pubDate>Sun, 23 Jun 2024 12:51:00 GMT</pubDate>
 </item>
 <item>
   <title></title>
   <link>https://www.mousetrap.blog/longtermism.html</link>
-  <description><![CDATA[ 
+  <description><![CDATA[ <div class="top-right">
+  <a href="./index.html">
+    <br>
+    🪤
+  </a>
+</div>
 
 
 
@@ -78,17 +88,22 @@ Critique about longtermism is that most of its cause areas are about problems wh
 
  ]]></description>
   <guid>https://www.mousetrap.blog/longtermism.html</guid>
-  <pubDate>Mon, 23 Oct 2023 11:20:00 GMT</pubDate>
+  <pubDate>Sun, 23 Jun 2024 12:51:00 GMT</pubDate>
 </item>
 <item>
   <title>Open Source AI for bioterrorism</title>
-  <link>https://www.mousetrap.blog/synthetic pandemic.html</link>
+  <link>https://www.mousetrap.blog/open-source-ai-for-bioterrorism.html</link>
   <description><![CDATA[ 
 
 
 
 
-<p>The open source <a href="https://ai.meta.com/llama/">LLama 2</a> model can be <a href="https://hyp.is/vB7hQHmPEe6qrfvRu-GGoQ/arxiv.org/pdf/2310.18233.pdf">cheaply</a> fine-tuned <a href="https://arxiv.org/pdf/2310.18233.pdf">to assist self-proclaimed bioterrorists to create pandemics</a>.</p>
+<div class="top-right">
+  <a href="./index.html">
+    <br>
+    🪤
+  </a>
+</div><p>The open source <a href="https://ai.meta.com/llama/">LLama 2</a> model can be <a href="https://hyp.is/vB7hQHmPEe6qrfvRu-GGoQ/arxiv.org/pdf/2310.18233.pdf">cheaply</a> fine-tuned <a href="https://arxiv.org/pdf/2310.18233.pdf">to assist self-proclaimed bioterrorists to create pandemics</a>.</p>
 <div style="float: right; position: relative; top: 0px; padding: 30px;">
 <p><img src="https://www.mousetrap.blog/res/img/llama-helps-uncovering-paths-to-synthetic-pandemics.png" class="img-fluid"></p>
 </div>
@@ -106,8 +121,8 @@ Aside from this <a href="https://en.wikipedia.org/wiki/Information_hazard">safet
 
 
  ]]></description>
-  <guid>https://www.mousetrap.blog/synthetic pandemic.html</guid>
-  <pubDate>Sun, 23 Jun 2024 09:46:05 GMT</pubDate>
+  <guid>https://www.mousetrap.blog/open-source-ai-for-bioterrorism.html</guid>
+  <pubDate>Sun, 23 Jun 2024 12:51:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

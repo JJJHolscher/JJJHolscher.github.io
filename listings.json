@@ -10,13 +10,13 @@
   {
     "listing": "/index.html",
     "items": [
-      "/longtermism.html",
       "/identity.html",
-      "/synthetic pandemic.html"
+      "/longtermism.html",
+      "/open-source-ai-for-bioterrorism.html"
     ]
   },
   {
-    "listing": "/open confusion.html",
+    "listing": "/open-confusion.html",
     "items": [
       "/xai.html"
     ]
